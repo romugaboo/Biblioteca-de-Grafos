@@ -124,6 +124,5 @@ if __name__ == '__main__':
 	g = g.lerGrafo('grafoSimples.txt')
 	g.prim()
 	g.BFS(1)
-	visitado = [False] * g.V
 	g.DFS(1)
 	print("\n")
