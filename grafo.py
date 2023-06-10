@@ -7,15 +7,13 @@ class Grafo():
 		self.V = vertices
 		self.grafo = [[0 for coluna in range(self.V)]
 					for linha in range(vertices)]
-		
+		self.arestas=0
 	# Função que faz a leitura de um grafo em txt e o insere em uma matriz de adjacência
 	def lerGrafo(self, arquivo):
 		with open(arquivo, 'r') as f:
 			linhas = f.readlines()
-		
 		# Lê o número de vértices
 		vertices = int(linhas[0].strip())
-		
 		# Cria matriz de adjacência para o grafo no txt
 		matriz_adjacencia = [[0] * vertices for _ in range(vertices)]
 		for linha in linhas[1:]:
@@ -27,7 +25,7 @@ class Grafo():
 		# Cria um grafo com as informações de grafo.txt e executa o algoritmo de Prim
 		g = Grafo(vertices)
 		g.grafo = matriz_adjacencia
-		
+		g.arestas=(len(linhas)-1)
 		return g
 
 	# Função que imprime a árvore geradora mínima
@@ -119,10 +117,47 @@ class Grafo():
 			visitado = [False] * g.V
 			self.DFSRecursivo(começo - 1, visitado)
 
+	def calcular_grau_medio(self):
+		grau_medio = self.arestas/self.V
+		
+		return grau_medio
+	
+				
+	def calcular_distribuicao_empirica(self):
+		distDistribuicao = {}
+		total_vertices = self.V
+		distribuicao_empirica = "" 
+		for v in range(self.V):
+				grau = sum(1 for peso in self.grafo[v] if peso > 0)
+				if grau in distDistribuicao:
+					distDistribuicao[grau] += 1
+				else:
+					distDistribuicao[grau] = 1
+		distribuicao_ordenada = sorted(distDistribuicao.items(), key=lambda x: x[0])  # Ordena a distribuição
+		with open("saida.txt", 'a') as saida:
+				saida.write("\nDistribuição Empírica:\n")
+				for grau, frequencia in distribuicao_ordenada:
+					distr = frequencia / total_vertices
+					distribuicao_empirica += "Grau {} ---> Distribuicao Empirica = {}\n".format(str(grau), str(distr))
+				return distribuicao_empirica
+
+
+
+
+	def saida (self):
+		with open('saida.txt', 'w') as saida:
+			saida.write('num de vertices: '+ str(self.V))
+			saida.write('\nnum de arestas: '+  str(self.arestas))
+			saida.write('\nGrau medio: '+  str(self.calcular_grau_medio())+'\n\n')
+			distribuicao_empirica = self.calcular_distribuicao_empirica()
+			saida.write(distribuicao_empirica)
+		saida.close()
 if __name__ == '__main__':
 	g = Grafo(0)
 	g = g.lerGrafo('grafoSimples.txt')
 	g.prim()
 	g.BFS(1)
 	g.DFS(1)
+	g.saida()
+	
 	print("\n")
