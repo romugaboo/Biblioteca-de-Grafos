@@ -51,14 +51,14 @@ if __name__ == '__main__':
 
             #6 - MST por Prim
 			case "6":
-				g.prim()
+				g.prim(arquivoSaida)
 				print("\nOperação realizada com sucesso!")
 
             #7 - Distância Média
 			case "7":
 				with open(arquivoSaida, 'a') as saida:
 					saida.write("\nDistancia media: ")
-					saida.write(g.distanciaMedia())
+					saida.write(str(g.distanciaMedia()))
 				saida.close
 
             #8 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
