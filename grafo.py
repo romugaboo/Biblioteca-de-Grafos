@@ -1,7 +1,8 @@
 # Algoritmo de Prim para árvore geradora mínima (MST) por meio da matriz de adjacência
 import sys
 from collections import deque
-import grafoUtils
+import math
+import grafoLeituraSaida
 
 class Grafo():
 	# Construtor: Monta matriz de adjacência preenchida com zeros
@@ -49,7 +50,7 @@ class Grafo():
 				if self.matrizAdj[u][v] > 0 and mst[v] == False and chave[v] > self.matrizAdj[u][v]:
 					chave[v] = self.matrizAdj[u][v]
 					pai[v] = u
-		grafoUtils.printMST(g, arquivoSaida, pai)
+		grafoLeituraSaida.printMST(g, arquivoSaida, pai)
 
 	# Função que faz o BFS
 	def BFS(self, começo):
@@ -60,8 +61,7 @@ class Grafo():
 		visitado[começo - 1] = True 
 		while fila:
 			vis = fila[0]
-
-			grafoUtils.printBFS(g, arquivoSaida, vis)
+			grafoLeituraSaida.printBFS(g, arquivoSaida, vis)
 			fila.pop(0)
 			 
 			# Para todo vértice adjacente do vértice atual
@@ -79,7 +79,7 @@ class Grafo():
 			vertice = pilha.pop()
 			
 			if not visitado[vertice]:
-				grafoUtils.printDFS(g, arquivoSaida, vertice)
+				grafoLeituraSaida.printDFS(g, arquivoSaida, vertice)
 				visitado[vertice] = True
 				
 				for vizinho in range(self.v - 1, -1, -1):
@@ -106,6 +106,16 @@ class Grafo():
 					distr = frequencia / total_vertices
 					distribuicao_empirica += "Grau {} ---> Distribuicao Empirica = {}\n".format(str(grau), str(distr))
 				return distribuicao_empirica
+	
+	def distanciaMedia(self):
+		#ESTÁ INCORRETO, A DISTANCIA MÉDIA DEPENDE DO ALGORITMO DE DIJKSTRA (EU ACHO)
+		pesoTotal = 0
+		for i in range(g.v):
+				for j in range(g.v):
+					pesoTotal = pesoTotal + g.matrizAdj[i][j]
+		pesoTotal = pesoTotal / 2
+		distanciaMedia = pesoTotal / (math.comb(self.arestas, 2))
+		return distanciaMedia
 
 if __name__ == '__main__':
 	print ("\nOlá, professor Glauco! Bem-vindo à nossa biblioteca de grafos.")
@@ -115,47 +125,55 @@ if __name__ == '__main__':
 	arquivoSaida = arquivo
 	arquivoSaida = arquivoSaida.replace('.txt', '_respostas.txt')
 	g = Grafo(0)
-	g = grafoUtils.lerGrafo(g, arquivo)
+	g = grafoLeituraSaida.lerGrafo(g, arquivo)
 
 	while True:
 		print ("\nMenu:")
 		print ("1 - Dados do Grafo e Distribuição Empírica")
-		print ("2 - BFS")
-		print ("3 - DFS")
+		print ("2 - BFS (escolha o vértice inicial)")
+		print ("3 - DFS (escolha o vértice inicial)")
 		print ("4 - Componentes Conexas")
 		print ("5 - Distância e Caminho Mínimo em um Par de Vértices")
 		print ("6 - MST por Prim")
 		print ("7 - Distância Média")
-		print ("8 - Todas as operações acima")
+		print ("8 - Todas as operações acima (as operações personalizadas começarão do vértice 1)")
 		print ("0 - Sair")
 
 		option = input("\nDigite a operação que você deseja realizar: ")
 		
 		match option:	
 			case "1":
-				grafoUtils.printDadosGrafo(g, arquivoSaida)
+				grafoLeituraSaida.printDadosGrafo(g, arquivoSaida)
 				print("\nOperação realizada com sucesso!")
 
 			case "2":
+				comeco = input("\nDigite o vértice de ínicio: ")
 				with open(arquivoSaida, 'a') as BFS:
 					BFS.write("\nBFS:\n")
 				BFS.close()
-				g.BFS(1)
+				g.BFS(int(comeco))
 				print("\nOperação realizada com sucesso!")
 
 			case "3":
+				comeco = input("\nDigite o vértice de ínicio: ")
 				with open(arquivoSaida, 'a') as DFS:
 					DFS.write("\n\nDFS:\n")
 				DFS.close()
-				g.DFS(1)
+				g.DFS(int(comeco))
 				print("\nOperação realizada com sucesso!")
 
 			case "6":
 				g.prim()
 				print("\nOperação realizada com sucesso!")
+			
+			case "7":
+				with open(arquivoSaida, 'a') as saida:
+					saida.write("\nDistancia media: ")
+					saida.write(g.distanciaMedia())
+				saida.close
 
 			case "8":
-				grafoUtils.printDadosGrafo(g, arquivoSaida)
+				grafoLeituraSaida.printDadosGrafo(g, arquivoSaida)
 
 				with open(arquivoSaida, 'a') as BFS:
 					BFS.write("\nBFS:\n")
@@ -169,6 +187,11 @@ if __name__ == '__main__':
 
 				g.prim()
 				print("\nOperação realizada com sucesso!")
+
+				with open(arquivoSaida, 'a') as saida:
+					saida.write("\nDistancia media: ")
+					saida.write(str(g.distanciaMedia()))
+				saida.close
 
 			case _:
 				sys.exit("Programa finalizado.")

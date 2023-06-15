@@ -10,7 +10,7 @@ def lerGrafo(g, arquivo):
 	matrizAdj = [[0] * vertices for _ in range(vertices)]
 	for linha in linhas[1:]:
 		valores = linha.strip().split()
-		origem, destino, peso = int(valores[0]), int(valores[1]), int(valores[2])
+		origem, destino, peso = int(valores[0]), int(valores[1]), float(valores[2])
 		matrizAdj[origem - 1][destino - 1] = peso
 		matrizAdj[destino - 1][origem - 1] = peso
 		

@@ -1,0 +1,25 @@
+
+num de vertices: 5
+num de arestas: 7
+Grau medio: 1.4
+
+Distribuicao Empirica:
+Grau 2 ---> Distribuicao Empirica = 0.4
+Grau 3 ---> Distribuicao Empirica = 0.4
+Grau 4 ---> Distribuicao Empirica = 0.2
+
+BFS:
+1 2 4 5 3 
+
+DFS:
+1 2 4 3 5 
+
+MST: 
+Aresta/Peso 
+1 2 3.0
+2 3 1.0
+3 4 2.0
+4 5 3.0
+Peso total: 9.0
+
+Distancia media: 1.342857142857143
