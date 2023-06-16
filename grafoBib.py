@@ -2,6 +2,8 @@
 import sys
 from collections import deque
 import math
+import heapq
+
 
 class Grafo():
 	# Construtor: Monta matriz de adjacência preenchida com zeros
@@ -158,14 +160,98 @@ class Grafo():
 					distr = frequencia / total_vertices
 					distribuicao_empirica += "Grau {} ---> Distribuicao Empirica = {}\n".format(str(grau), str(distr))
 				return distribuicao_empirica
-	
-	def distanciaMedia(self):
-		#ESTÁ INCORRETO, A DISTANCIA MÉDIA DEPENDE DO ALGORITMO DE DIJKSTRA (EU ACHO)
-		pesoTotal = 0
-		for i in range(self.v):
-				for j in range(self.v):
-					pesoTotal = pesoTotal + self.matrizAdj[i][j]
-		pesoTotal = pesoTotal / 2
-		distanciaMedia = pesoTotal / (math.comb(self.arestas, 2))
-		return distanciaMedia
+#TODO: Componetes conexas
 
+	def BFScomponentesConexos(self, inicio, visitados, componente):
+		fila = [inicio]
+		visitados[inicio] = True
+		while fila:
+			vertice = fila.pop(0)
+			componente.append(vertice)
+			for vizinho in range(self.v):
+				if self.matrizAdj[vertice][vizinho] != 0 and not visitados[vizinho]:
+					fila.append(vizinho)
+					visitados[vizinho] = True
+
+	def componentesConexos(self):
+		visitados = [False] * self.v
+		todasComponentes = []
+		for v in range(self.v):
+			if not visitados[v]:
+				componente = []
+				self.BFScomponentesConexos(v, visitados, componente)
+				todasComponentes.append(componente)
+		componentes_ordenados = sorted(todasComponentes, key=len, reverse=True)
+
+		# Converter cada componente em uma string
+		componentes_string = " "
+		for i, componente in enumerate(componentes_ordenados):
+			num_vertice_componente = len(componente)
+			componente_str = f"Componente {i+1}, com {num_vertice_componente} vrtices: "+",".join(str(v) for v in componente)
+		componentes_string += componente_str + "\n"
+		return componentes_string
+	
+
+
+# TODO: Algoritmo de Dijkstra	
+	
+	def dijkstra(self):
+		origem=destino = 0 
+		valid_input =False
+		##quase um try catch kkkkk
+		while not valid_input:
+			origem = int(input("\nDigite o vértice de origem: "))
+			destino = int(input("Insira um destino. Use 0 para calcular o menor caminho para todos os vértices: "))
+			if origem == destino:
+				ZeroDivisionError=("Origem e destino não podem ser iguais. Por favor, forneça valores diferentes.\n\n")
+				print(f"Erro: {str(ZeroDivisionError)}")
+			else:
+				valid_input = True
+
+		distancias = [sys.maxsize] * self.v
+		distancias[origem] = 0
+		visitados = [False] * self.v
+		interromper= False
+		visitados_ordem=[]
+		distancia_media=0.0
+		for _ in range(self.v):
+			u = self.minDistancia(distancias, visitados)
+			visitados[u] = True 
+			visitados_ordem.append(u) 
+			if u==destino:
+				interromper=True
+				break
+			for v in range(self.v):
+				if (self.matrizAdj[u][v] > 0 and
+                not visitados[v] and
+                distancias[u] + self.matrizAdj[u][v] < distancias[v]):
+						distancias[v] = distancias[u] + self.matrizAdj[u][v]
+						if interromper:
+							break	
+		distancias_str = ""
+		distancia_media=0.0
+		if destino==0:
+			for i, distancia  in enumerate(distancias):
+					if i !=origem:
+						distancias_str += f"Distancia ate o vertice {i}: {distancia}\n"
+						distancia_media = sum(distancias)/(self.v-1)
+			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
+		else:
+			vertices_str = ''.join(f"vertice: {v} de peso {distancias[v]}\n" for v in visitados_ordem[1:destino+1])
+			distancias_str = f"Vertices visitados do caminho minimo:\n {vertices_str}\n"
+			for v in visitados_ordem[1:destino+1]:
+				distancia_media+=distancias[v]
+			distancia_media/=len(visitados_ordem[1:destino+1])
+			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
+		return distancias_str
+    
+	def minDistancia(self, distancias, visitados):
+		minimo = sys.maxsize
+		minimo_indice = -1
+        
+		for v in range(self.v):
+			if not visitados[v] and distancias[v] < minimo:
+				minimo = distancias[v]
+				minimo_indice = v
+        
+		return minimo_indice

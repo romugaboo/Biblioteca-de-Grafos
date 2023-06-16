@@ -20,7 +20,9 @@ if __name__ == '__main__':
 		print ("5 - Distância e Caminho Mínimo em um Par de Vértices")
 		print ("6 - MST por Prim")
 		print ("7 - Distância Média")
-		print ("8 - Todas as operações acima (as operações personalizadas começarão do vértice 1)")
+		print ("8 - Caminho mínimo, distância média e  distâncias mínimas")
+		print ("9 - Componentes Conexas)")
+		print ("10 - Todas as operações acima (as operações personalizadas começarão do vértice 1)")
 		print ("0 - Sair")
 
 		option = input("\nDigite a operação que você deseja realizar: ")
@@ -60,9 +62,25 @@ if __name__ == '__main__':
 					saida.write("\nDistancia media: ")
 					saida.write(str(g.distanciaMedia()))
 				saida.close
-
-            #8 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
+			#Caminho mínimo, distância média e  distâncias mínimas	
 			case "8":
+				distancia_minima = g.dijkstra()
+				with open(arquivoSaida, 'a') as saida:
+					saida.write("\nDistancia minima:\n\n ")
+					saida.write(str((distancia_minima)))
+				saida.close
+
+			#Componentes Conexas
+			case  "9":
+				componentesConexas = g.componentesConexos()
+				with open(arquivoSaida, 'a') as saida:
+					saida.write("\nComponentes Conexas: ")
+					saida.write((componentesConexas))
+				saida.close
+			
+
+			#10 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
+			case "10":
 				g.printDadosGrafo(arquivoSaida)
 
 				with open(arquivoSaida, 'a') as BFS:
@@ -82,7 +100,7 @@ if __name__ == '__main__':
 					saida.write("\nDistancia media: ")
 					saida.write(str(g.distanciaMedia()))
 				saida.close
-
+				
             #0 - Sair
 			case _:
 				sys.exit("Programa finalizado.\n")
