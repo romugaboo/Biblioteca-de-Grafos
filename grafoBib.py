@@ -34,27 +34,20 @@ class Grafo():
 
 	def printMST(self, arquivoSaida, pai):
 			with open(arquivoSaida, 'a') as mst:
-				mst.write('\n\nMST: \n')
+				mst.write('\nMST: \n')
 				mst.write('Aresta/Peso \n')
 				pesoTotal = 0
 				for i in range(1, self.v):
 					pesoTotal = pesoTotal + self.matrizAdj[i][pai[i]]
-					mst.write(str(pai[i] + 1))
-					mst.write(' ')
-					mst.write(str(i + 1))
-					mst.write(' ')
-					mst.write(str(self.matrizAdj[i][pai[i]]))
-					mst.write('\n')
-				mst.write('Peso total: ')
-				mst.write(str(pesoTotal))
-				mst.write('\n')
+					mst.write(str(pai[i] + 1) + ' ' + str(i + 1) + ' ' + str(self.matrizAdj[i][pai[i]]) + '\n')
+				mst.write('Peso total (aproximacao - dificuldade em somar float): ' + str(pesoTotal) + '\n')
 			mst.close()
 
 	def printDadosGrafo (self, arquivoSaida):
 		with open(arquivoSaida, 'a') as saida:
 			saida.write('\nnum de vertices: '+ str(self.v))
 			saida.write('\nnum de arestas: '+  str(self.arestas))
-			saida.write('\nGrau medio: '+  str(self.calcular_grau_medio())+'\n\n')
+			saida.write('\nGrau medio (aproximacao - dificuldade em somar float): '+  str(self.calcular_grau_medio())+'\n\n')
 			saida.write("Distribuicao Empirica:\n")
 			distribuicao_empirica = self.calcular_distribuicao_empirica(arquivoSaida)
 			saida.write(distribuicao_empirica)
@@ -104,6 +97,9 @@ class Grafo():
 	def BFS(self, começo, arquivoSaida):
 		visitado = [False] * self.v
 		fila = [começo - 1]
+		with open(arquivoSaida, 'a') as BFS:
+				BFS.write("\nBFS:\n")
+		BFS.close()
  
 		# Começo já está visitado
 		visitado[começo - 1] = True 
@@ -117,7 +113,7 @@ class Grafo():
 			 
 			# Para todo vértice adjacente do vértice atual
 			for i in range(self.v):
-				if (self.matrizAdj[vis][i] > 1 and (not visitado[i])):
+				if (self.matrizAdj[vis][i] != 0 and (not visitado[i])):
 					# Coloque-o na fila
 					fila.append(i)
 					visitado[i] = True
@@ -125,6 +121,10 @@ class Grafo():
 	def DFS(self, inicio, arquivoSaida):
 		visitado = [False] * self.v
 		pilha = [inicio - 1]
+
+		with open(arquivoSaida, 'a') as DFS:
+			DFS.write("\n\nDFS:\n")
+		DFS.close()
 		
 		while pilha:
 			vertice = pilha.pop()
@@ -137,12 +137,16 @@ class Grafo():
 				visitado[vertice] = True
 				
 				for vizinho in range(self.v - 1, -1, -1):
-					if self.matrizAdj[vertice][vizinho] > 1 and not visitado[vizinho]:
+					if self.matrizAdj[vertice][vizinho] != 0 and not visitado[vizinho]:
 						pilha.append(vizinho)
 
-	def calcular_grau_medio(self):
-		grau_medio = self.arestas/self.v
-		return grau_medio
+	def calcular_grau_medio(self):		
+		grauTotal = 0
+		for i in range(self.v):
+			grau = sum(self.matrizAdj[i])
+			grauTotal = grauTotal + grau
+		grauMedio = grauTotal / self.v
+		return grauMedio
 	
 	def calcular_distribuicao_empirica(self, arquivoSaida):
 		distDistribuicao = {}
@@ -160,6 +164,7 @@ class Grafo():
 					distr = frequencia / total_vertices
 					distribuicao_empirica += "Grau {} ---> Distribuicao Empirica = {}\n".format(str(grau), str(distr))
 				return distribuicao_empirica
+
 #TODO: Componetes conexas
 
 	def BFScomponentesConexos(self, inicio, visitados, componente):
@@ -173,7 +178,10 @@ class Grafo():
 					fila.append(vizinho)
 					visitados[vizinho] = True
 
-	def componentesConexos(self):
+	def componentesConexos(self, arquivoSaida):
+		with open(arquivoSaida, 'a') as saida:
+			saida.write("\n\nComponentes Conexas: ")
+		saida.close
 		visitados = [False] * self.v
 		todasComponentes = []
 		for v in range(self.v):
@@ -187,17 +195,17 @@ class Grafo():
 		componentes_string = " "
 		for i, componente in enumerate(componentes_ordenados):
 			num_vertice_componente = len(componente)
-			componente_str = f"Componente {i+1}, com {num_vertice_componente} vrtices: "+",".join(str(v) for v in componente)
+			componente_str = f"Componente {i+1}, com {num_vertice_componente} vertices: "+",".join(str(v) for v in componente)
 		componentes_string += componente_str + "\n"
-		return componentes_string
-	
-
+		with open(arquivoSaida, 'a') as saida:
+			saida.write(componentes_string)
+		saida.close
 
 # TODO: Algoritmo de Dijkstra	
 	
 	def dijkstra(self):
-		origem=destino = 0 
-		valid_input =False
+		origem = destino = 0 
+		valid_input = False
 		##quase um try catch kkkkk
 		while not valid_input:
 			origem = int(input("\nDigite o vértice de origem: "))
@@ -211,9 +219,9 @@ class Grafo():
 		distancias = [sys.maxsize] * self.v
 		distancias[origem] = 0
 		visitados = [False] * self.v
-		interromper= False
-		visitados_ordem=[]
-		distancia_media=0.0
+		interromper = False
+		visitados_ordem = []
+		distancia_media = 0.0
 		for _ in range(self.v):
 			u = self.minDistancia(distancias, visitados)
 			visitados[u] = True 
@@ -223,8 +231,8 @@ class Grafo():
 				break
 			for v in range(self.v):
 				if (self.matrizAdj[u][v] > 0 and
-                not visitados[v] and
-                distancias[u] + self.matrizAdj[u][v] < distancias[v]):
+				not visitados[v] and
+				distancias[u] + self.matrizAdj[u][v] < distancias[v]):
 						distancias[v] = distancias[u] + self.matrizAdj[u][v]
 						if interromper:
 							break	
@@ -244,14 +252,14 @@ class Grafo():
 			distancia_media/=len(visitados_ordem[1:destino+1])
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
 		return distancias_str
-    
+	
 	def minDistancia(self, distancias, visitados):
 		minimo = sys.maxsize
 		minimo_indice = -1
-        
+		
 		for v in range(self.v):
 			if not visitados[v] and distancias[v] < minimo:
 				minimo = distancias[v]
 				minimo_indice = v
-        
+		
 		return minimo_indice

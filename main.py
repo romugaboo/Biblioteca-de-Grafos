@@ -17,12 +17,9 @@ if __name__ == '__main__':
 		print ("2 - BFS (escolha o vértice inicial)")
 		print ("3 - DFS (escolha o vértice inicial)")
 		print ("4 - Componentes Conexas")
-		print ("5 - Distância e Caminho Mínimo em um Par de Vértices")
-		print ("6 - MST por Prim")
-		print ("7 - Distância Média")
-		print ("8 - Caminho mínimo, distância média e  distâncias mínimas")
-		print ("9 - Componentes Conexas)")
-		print ("10 - Todas as operações acima (as operações personalizadas começarão do vértice 1)")
+		print ("5 - MST por Prim")
+		print ("6 - Caminho mínimo, distância média e distâncias mínimas")
+		print ("7 - Todas as operações acima (as operações personalizadas começarão do vértice 1)")
 		print ("0 - Sair")
 
 		option = input("\nDigite a operação que você deseja realizar: ")
@@ -31,75 +28,66 @@ if __name__ == '__main__':
 			#1 - Dados do Grafo e Distribuição Empírica
 			case "1":
 				g.printDadosGrafo(arquivoSaida)
-				print("\nOperação realizada com sucesso!")
+				
+				print("\nDados do grafo e distribuição empírica realizados com sucesso!")
 
             #2 - BFS (escolha o vértice inicial)
 			case "2":
 				comeco = input("\nDigite o vértice de ínicio: ")
-				with open(arquivoSaida, 'a') as BFS:
-					BFS.write("\nBFS:\n")
-				BFS.close()
+
 				g.BFS(int(comeco), arquivoSaida)
-				print("\nOperação realizada com sucesso!")
+
+				print("\nBFS realizado com sucesso!")
 
             #3 - DFS (escolha o vértice inicial)
 			case "3":
 				comeco = input("\nDigite o vértice de ínicio: ")
-				with open(arquivoSaida, 'a') as DFS:
-					DFS.write("\n\nDFS:\n")
-				DFS.close()
+
 				g.DFS(int(comeco), arquivoSaida)
-				print("\nOperação realizada com sucesso!")
 
-            #6 - MST por Prim
-			case "6":
+				print("\nDFS realizado com sucesso!")
+			
+			#4 - Componentes Conexas
+			case "4":
+				g.componentesConexos(arquivoSaida)
+
+				print("\nComponentes conexas realizados com sucesso!")
+
+            #5 - MST por Prim
+			case "5":
 				g.prim(arquivoSaida)
-				print("\nOperação realizada com sucesso!")
 
-            #7 - Distância Média
-			case "7":
-				with open(arquivoSaida, 'a') as saida:
-					saida.write("\nDistancia media: ")
-					saida.write(str(g.distanciaMedia()))
-				saida.close
-			#Caminho mínimo, distância média e  distâncias mínimas	
-			case "8":
+				print("\nMST por Prim realizada com sucesso!")
+			
+			#6 - Caminho mínimo, distância média e  distâncias mínimas	
+			case "6":
 				distancia_minima = g.dijkstra()
 				with open(arquivoSaida, 'a') as saida:
 					saida.write("\nDistancia minima:\n\n ")
 					saida.write(str((distancia_minima)))
 				saida.close
 
-			#Componentes Conexas
-			case  "9":
-				componentesConexas = g.componentesConexos()
-				with open(arquivoSaida, 'a') as saida:
-					saida.write("\nComponentes Conexas: ")
-					saida.write((componentesConexas))
-				saida.close
-			
+				print("\nCaminho mínimo, distância média e distâncias mínimas realizados com sucesso!")
 
-			#10 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
-			case "10":
+			#7 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
+			case "7":
 				g.printDadosGrafo(arquivoSaida)
 
-				with open(arquivoSaida, 'a') as BFS:
-					BFS.write("\nBFS:\n")
-				BFS.close()
 				g.BFS(1, arquivoSaida)
 
-				with open(arquivoSaida, 'a') as DFS:
-					DFS.write("\n\nDFS:\n")
-				DFS.close()
 				g.DFS(1, arquivoSaida)
 
-				g.prim(arquivoSaida)
-				print("\nOperação realizada com sucesso!")
+				g.componentesConexos(arquivoSaida)
 
+				g.prim(arquivoSaida)
+
+				distancia_minima = g.dijkstra()
 				with open(arquivoSaida, 'a') as saida:
-					saida.write("\nDistancia media: ")
-					saida.write(str(g.distanciaMedia()))
+					saida.write("\nDistancia minima:\n\n ")
+					saida.write(str((distancia_minima)))
 				saida.close
+
+				print("\nOperações realizadas com sucesso!")
 				
             #0 - Sair
 			case _:
