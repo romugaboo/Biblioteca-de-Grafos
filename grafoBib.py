@@ -47,7 +47,7 @@ class Grafo():
 		with open(arquivoSaida, 'a') as saida:
 			saida.write('\nnum de vertices: '+ str(self.v))
 			saida.write('\nnum de arestas: '+  str(self.arestas))
-			saida.write('\nGrau medio (aproximacao - dificuldade em somar float): '+  str(self.calcular_grau_medio())+'\n\n')
+			saida.write(f'\nGrau medio : {self.calcular_grau_medio():.2f}\n\n')
 			saida.write("Distribuicao Empirica:\n")
 			distribuicao_empirica = self.calcular_distribuicao_empirica(arquivoSaida)
 			saida.write(distribuicao_empirica)
@@ -195,7 +195,7 @@ class Grafo():
 		componentes_string = " "
 		for i, componente in enumerate(componentes_ordenados):
 			num_vertice_componente = len(componente)
-			componente_str = f"Componente {i+1}, com {num_vertice_componente} vertices: "+",".join(str(v) for v in componente)
+			componente_str = f"Componente {i+1}, com {num_vertice_componente} vertices: "+",".join(str(v+1) for v in componente)
 		componentes_string += componente_str + "\n"
 		with open(arquivoSaida, 'a') as saida:
 			saida.write(componentes_string)
@@ -208,14 +208,20 @@ class Grafo():
 		valid_input = False
 		##quase um try catch kkkkk
 		while not valid_input:
-			origem = int(input("\nDigite o vértice de origem: "))
+			origem = int(input("Caminho mínimo\n\nDigite o vértice de origem: "))
 			destino = int(input("Insira um destino. Use 0 para calcular o menor caminho para todos os vértices: "))
+
+
 			if origem == destino:
 				ZeroDivisionError=("Origem e destino não podem ser iguais. Por favor, forneça valores diferentes.\n\n")
 				print(f"Erro: {str(ZeroDivisionError)}")
+			elif origem<=0:
+				ZeroDivisionError=("Origem deve ser valor maior que zero.\n\n")
+				print(f"Erro: {str(ZeroDivisionError)}")
 			else:
 				valid_input = True
-
+		origem -= 1
+		destino = destino-1
 		distancias = [sys.maxsize] * self.v
 		distancias[origem] = 0
 		visitados = [False] * self.v
@@ -238,10 +244,10 @@ class Grafo():
 							break	
 		distancias_str = ""
 		distancia_media=0.0
-		if destino==0:
+		if destino==-1:
 			for i, distancia  in enumerate(distancias):
 					if i !=origem:
-						distancias_str += f"Distancia ate o vertice {i}: {distancia}\n"
+						distancias_str += f"Distancia ate o vertice {i+1}: {distancia}\n"
 						distancia_media = sum(distancias)/(self.v-1)
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
 		else:
@@ -251,12 +257,13 @@ class Grafo():
 				distancia_media+=distancias[v]
 			distancia_media/=len(visitados_ordem[1:destino+1])
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
+		print ("Dados gravados no .txt com sucesso")
 		return distancias_str
 	
 	def minDistancia(self, distancias, visitados):
 		minimo = sys.maxsize
 		minimo_indice = -1
-		
+	
 		for v in range(self.v):
 			if not visitados[v] and distancias[v] < minimo:
 				minimo = distancias[v]
