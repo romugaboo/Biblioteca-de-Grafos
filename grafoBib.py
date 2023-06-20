@@ -4,7 +4,6 @@ from collections import deque
 import math
 import heapq
 
-
 class Grafo():
 	# Construtor: Monta matriz de adjacência preenchida com zeros
 	def __init__(self, vertices):
@@ -40,7 +39,7 @@ class Grafo():
 				for i in range(1, self.v):
 					pesoTotal = pesoTotal + self.matrizAdj[i][pai[i]]
 					mst.write(str(pai[i] + 1) + ' ' + str(i + 1) + ' ' + str(self.matrizAdj[i][pai[i]]) + '\n')
-				mst.write('Peso total (aproximacao - dificuldade em somar float): ' + str(pesoTotal) + '\n')
+				mst.write('Peso total: ' + str(pesoTotal) + '\n')
 			mst.close()
 
 	def printDadosGrafo (self, arquivoSaida):
@@ -94,15 +93,15 @@ class Grafo():
 		self.printMST(arquivoSaida, pai)
 
 	# Função que faz o BFS
-	def BFS(self, começo, arquivoSaida):
+	def BFS(self, arquivoSaida, comeco):
 		visitado = [False] * self.v
-		fila = [começo - 1]
+		fila = [comeco - 1]
 		with open(arquivoSaida, 'a') as BFS:
 				BFS.write("\nBFS:\n")
 		BFS.close()
  
 		# Começo já está visitado
-		visitado[começo - 1] = True 
+		visitado[comeco - 1] = True 
 		while fila:
 			vis = fila[0]
 			with open(arquivoSaida, 'a') as BFS:
@@ -118,9 +117,9 @@ class Grafo():
 					fila.append(i)
 					visitado[i] = True
 
-	def DFS(self, inicio, arquivoSaida):
+	def DFS(self, arquivoSaida, comeco):
 		visitado = [False] * self.v
-		pilha = [inicio - 1]
+		pilha = [comeco - 1]
 
 		with open(arquivoSaida, 'a') as DFS:
 			DFS.write("\n\nDFS:\n")
@@ -140,12 +139,14 @@ class Grafo():
 					if self.matrizAdj[vertice][vizinho] != 0 and not visitado[vizinho]:
 						pilha.append(vizinho)
 
-	def calcular_grau_medio(self):		
-		grauTotal = 0
+	def calcular_grau_medio(self):
+		graus = []
+		# Calcular o grau de cada vértice
 		for i in range(self.v):
 			grau = sum(self.matrizAdj[i])
-			grauTotal = grauTotal + grau
-		grauMedio = grauTotal / self.v
+			graus.append(grau)
+		# Calcular o grau médio
+		grauMedio = sum(graus) / self.v
 		return grauMedio
 	
 	def calcular_distribuicao_empirica(self, arquivoSaida):
@@ -164,8 +165,6 @@ class Grafo():
 					distr = frequencia / total_vertices
 					distribuicao_empirica += "Grau {} ---> Distribuicao Empirica = {}\n".format(str(grau), str(distr))
 				return distribuicao_empirica
-
-#TODO: Componetes conexas
 
 	def BFScomponentesConexos(self, inicio, visitados, componente):
 		fila = [inicio]
@@ -200,13 +199,10 @@ class Grafo():
 		with open(arquivoSaida, 'a') as saida:
 			saida.write(componentes_string)
 		saida.close
-
-# TODO: Algoritmo de Dijkstra	
 	
-	def dijkstra(self):
+	def dijkstra(self, arquivoSaida):
 		origem = destino = 0 
 		valid_input = False
-		##quase um try catch kkkkk
 		while not valid_input:
 			origem = int(input("Caminho mínimo\n\nDigite o vértice de origem: "))
 			destino = int(input("Insira um destino. Use 0 para calcular o menor caminho para todos os vértices: "))
@@ -258,7 +254,10 @@ class Grafo():
 			distancia_media/=len(visitados_ordem[1:destino+1])
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
 		print ("Dados gravados no .txt com sucesso")
-		return distancias_str
+		with open(arquivoSaida, 'a') as saida:
+			saida.write("\nDistancia minima:\n\n ")
+			saida.write(str((distancias_str)))
+			saida.close
 	
 	def minDistancia(self, distancias, visitados):
 		minimo = sys.maxsize

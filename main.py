@@ -10,7 +10,12 @@ if __name__ == '__main__':
 		arquivoSaida = arquivo
 		arquivoSaida = arquivoSaida.replace('.txt', '_respostas.txt')
 		g = Grafo(0)
-		g = g.lerGrafo(arquivo)
+		try:
+			g = g.lerGrafo(arquivo)
+		except FileNotFoundError:
+			print("\nO arquivo não existe ou não foi encontrado.\n")
+			definirArquivo()
+		print("\nArquivo lido com sucesso!\n")
 		return arquivoSaida, g
 	g = Grafo(0)
 	arquivoSaida, g = definirArquivo()
@@ -34,22 +39,25 @@ if __name__ == '__main__':
 			case "1":
 				g.printDadosGrafo(arquivoSaida)
 
-				print("\nDados do grafo e distribuição empírica realizados com sucesso!")	
+				print("\nDados do grafo e distribuição empírica realizados com sucesso!")
+
     	    #2 - BFS (escolha o vértice inicial)
 			case "2":
 				comeco = input("\nDigite o vértice de ínicio: ")	
-				g.BFS(int(comeco), arquivoSaida)	
+				g.BFS(arquivoSaida, int(comeco))	
 				print("\nBFS realizado com sucesso!")	
+
     	    #3 - DFS (escolha o vértice inicial)
 			case "3":
 				comeco = input("\nDigite o vértice de ínicio: ")	
-				g.DFS(int(comeco), arquivoSaida)	
+				g.DFS(arquivoSaida, int(comeco))	
 				print("\nDFS realizado com sucesso!")
 
 			#4 - Componentes Conexas
 			case "4":
 				g.componentesConexos(arquivoSaida)	
 				print("\nComponentes conexas realizados com sucesso!")	
+
     	    #5 - MST por Prim
 			case "5":
 				g.prim(arquivoSaida)	
@@ -57,26 +65,21 @@ if __name__ == '__main__':
 
 			#6 - Caminho mínimo, distância média e  distâncias mínimas	
 			case "6":
-				distancia_minima = g.dijkstra()
-				with open(arquivoSaida, 'a') as saida:
-					saida.write("\nDistancia minima:\n\n ")
-					saida.write(str((distancia_minima)))
-				saida.close	
+				g.dijkstra(arquivoSaida)
 				print("\nCaminho mínimo, distância média e distâncias mínimas realizados com sucesso!")	
+
 			#7 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
 			case "7":
 				g.printDadosGrafo(arquivoSaida)	
-				g.BFS(1, arquivoSaida)	
-				g.DFS(1, arquivoSaida)	
+				g.BFS(arquivoSaida, 1)	
+				g.DFS(arquivoSaida, 1)	
 				g.componentesConexos(arquivoSaida)	
 				g.prim(arquivoSaida)	
-				distancia_minima = g.dijkstra()
-				with open(arquivoSaida, 'a') as saida:
-					saida.write("\nDistancia minima:\n\n ")
-					saida.write(str((distancia_minima)))
-				saida.close	
+				g.dijkstra(arquivoSaida)
+
 				print("\nOperações realizadas com sucesso!")
 			
+			#8 - Mudar o arquivo de entrada
 			case "8":
 				arquivoSaida, g = definirArquivo()
 
