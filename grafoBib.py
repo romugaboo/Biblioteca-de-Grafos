@@ -200,9 +200,10 @@ class Grafo():
 			saida.write(componentes_string)
 		saida.close
 	
-	def dijkstra(self, arquivoSaida):
-		origem = destino = 0 
-		valid_input = False
+	def dijkstra(self, arquivoSaida, chamadaUnica):
+		origem = 1
+		destino = 0 
+		valid_input = chamadaUnica #Caso True, o input de usuário não será requirido, e o algoritmo iniciará a partir do vértice 1 para todos os outros vértices do Grafo
 		while not valid_input:
 			origem = int(input("Caminho mínimo\n\nDigite o vértice de origem: "))
 			destino = int(input("Insira um destino. Use 0 para calcular o menor caminho para todos os vértices: "))
@@ -255,7 +256,7 @@ class Grafo():
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
 		print ("Dados gravados no .txt com sucesso")
 		with open(arquivoSaida, 'a') as saida:
-			saida.write("\nDistancia minima:\n\n ")
+			saida.write("\nDistancia minima:\n\n")
 			saida.write(str((distancias_str)))
 			saida.close
 	

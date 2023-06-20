@@ -65,7 +65,7 @@ if __name__ == '__main__':
 
 			#6 - Caminho mínimo, distância média e  distâncias mínimas	
 			case "6":
-				g.dijkstra(arquivoSaida)
+				g.dijkstra(arquivoSaida, False)
 				print("\nCaminho mínimo, distância média e distâncias mínimas realizados com sucesso!")	
 
 			#7 - Todas as operações acima (as operações personalizadas começarão do vértice 1)
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 				g.DFS(arquivoSaida, 1)	
 				g.componentesConexos(arquivoSaida)	
 				g.prim(arquivoSaida)	
-				g.dijkstra(arquivoSaida)
+				g.dijkstra(arquivoSaida, True)
 
 				print("\nOperações realizadas com sucesso!")
 			
