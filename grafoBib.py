@@ -39,14 +39,14 @@ class Grafo():
 				for i in range(1, self.v):
 					pesoTotal = pesoTotal + self.matrizAdj[i][pai[i]]
 					mst.write(str(pai[i] + 1) + ' ' + str(i + 1) + ' ' + str(self.matrizAdj[i][pai[i]]) + '\n')
-				mst.write('Peso total: ' + str(pesoTotal) + '\n')
+				mst.write('Peso total da MST: ' + str(pesoTotal) + '\n')
 			mst.close()
 
 	def printDadosGrafo (self, arquivoSaida):
 		with open(arquivoSaida, 'a') as saida:
-			saida.write('\nnum de vertices: '+ str(self.v))
-			saida.write('\nnum de arestas: '+  str(self.arestas))
-			saida.write(f'\nGrau medio : {self.calcular_grau_medio():.2f}\n\n')
+			saida.write('\nNumero de vertices: '+ str(self.v))
+			saida.write('\nNumero de arestas: '+  str(self.arestas))
+			saida.write(f'\nGrau medio: {self.calcular_grau_medio():.2f}\n\n')
 			saida.write("Distribuicao Empirica:\n")
 			distribuicao_empirica = self.calcular_distribuicao_empirica(arquivoSaida)
 			saida.write(distribuicao_empirica)
@@ -146,7 +146,7 @@ class Grafo():
 			grau = sum(self.matrizAdj[i])
 			graus.append(grau)
 		# Calcular o grau médio
-		grauMedio = sum(graus) / self.v
+		grauMedio = sum(graus) / self.arestas
 		return grauMedio
 	
 	def calcular_distribuicao_empirica(self, arquivoSaida):
