@@ -1004,3 +1004,1781 @@ Aresta/Peso
 49 998 1.0
 18 999 1.0
 26 1000 1.0
+Distancia minima do vértice 1 até todos os outros do grafo:
+
+Distancia ate o vertice 2: 2.0
+Distancia ate o vertice 3: 2.0
+Distancia ate o vertice 4: 1.0
+Distancia ate o vertice 5: 2.0
+Distancia ate o vertice 6: 2.0
+Distancia ate o vertice 7: 3.0
+Distancia ate o vertice 8: 2.0
+Distancia ate o vertice 9: 2.0
+Distancia ate o vertice 10: 2.0
+Distancia ate o vertice 11: 3.0
+Distancia ate o vertice 12: 2.0
+Distancia ate o vertice 13: 3.0
+Distancia ate o vertice 14: 2.0
+Distancia ate o vertice 15: 2.0
+Distancia ate o vertice 16: 2.0
+Distancia ate o vertice 17: 2.0
+Distancia ate o vertice 18: 2.0
+Distancia ate o vertice 19: 2.0
+Distancia ate o vertice 20: 3.0
+Distancia ate o vertice 21: 2.0
+Distancia ate o vertice 22: 2.0
+Distancia ate o vertice 23: 2.0
+Distancia ate o vertice 24: 3.0
+Distancia ate o vertice 25: 3.0
+Distancia ate o vertice 26: 2.0
+Distancia ate o vertice 27: 2.0
+Distancia ate o vertice 28: 3.0
+Distancia ate o vertice 29: 2.0
+Distancia ate o vertice 30: 2.0
+Distancia ate o vertice 31: 2.0
+Distancia ate o vertice 32: 3.0
+Distancia ate o vertice 33: 3.0
+Distancia ate o vertice 34: 2.0
+Distancia ate o vertice 35: 2.0
+Distancia ate o vertice 36: 3.0
+Distancia ate o vertice 37: 2.0
+Distancia ate o vertice 38: 3.0
+Distancia ate o vertice 39: 2.0
+Distancia ate o vertice 40: 3.0
+Distancia ate o vertice 41: 2.0
+Distancia ate o vertice 42: 2.0
+Distancia ate o vertice 43: 2.0
+Distancia ate o vertice 44: 2.0
+Distancia ate o vertice 45: 2.0
+Distancia ate o vertice 46: 2.0
+Distancia ate o vertice 47: 2.0
+Distancia ate o vertice 48: 2.0
+Distancia ate o vertice 49: 2.0
+Distancia ate o vertice 50: 3.0
+Distancia ate o vertice 51: 3.0
+Distancia ate o vertice 52: 1.0
+Distancia ate o vertice 53: 3.0
+Distancia ate o vertice 54: 2.0
+Distancia ate o vertice 55: 2.0
+Distancia ate o vertice 56: 3.0
+Distancia ate o vertice 57: 2.0
+Distancia ate o vertice 58: 2.0
+Distancia ate o vertice 59: 2.0
+Distancia ate o vertice 60: 3.0
+Distancia ate o vertice 61: 2.0
+Distancia ate o vertice 62: 2.0
+Distancia ate o vertice 63: 2.0
+Distancia ate o vertice 64: 2.0
+Distancia ate o vertice 65: 3.0
+Distancia ate o vertice 66: 2.0
+Distancia ate o vertice 67: 2.0
+Distancia ate o vertice 68: 3.0
+Distancia ate o vertice 69: 2.0
+Distancia ate o vertice 70: 2.0
+Distancia ate o vertice 71: 2.0
+Distancia ate o vertice 72: 2.0
+Distancia ate o vertice 73: 2.0
+Distancia ate o vertice 74: 3.0
+Distancia ate o vertice 75: 3.0
+Distancia ate o vertice 76: 2.0
+Distancia ate o vertice 77: 2.0
+Distancia ate o vertice 78: 2.0
+Distancia ate o vertice 79: 2.0
+Distancia ate o vertice 80: 2.0
+Distancia ate o vertice 81: 2.0
+Distancia ate o vertice 82: 2.0
+Distancia ate o vertice 83: 2.0
+Distancia ate o vertice 84: 2.0
+Distancia ate o vertice 85: 2.0
+Distancia ate o vertice 86: 2.0
+Distancia ate o vertice 87: 2.0
+Distancia ate o vertice 88: 2.0
+Distancia ate o vertice 89: 3.0
+Distancia ate o vertice 90: 2.0
+Distancia ate o vertice 91: 2.0
+Distancia ate o vertice 92: 2.0
+Distancia ate o vertice 93: 3.0
+Distancia ate o vertice 94: 2.0
+Distancia ate o vertice 95: 2.0
+Distancia ate o vertice 96: 2.0
+Distancia ate o vertice 97: 2.0
+Distancia ate o vertice 98: 3.0
+Distancia ate o vertice 99: 2.0
+Distancia ate o vertice 100: 2.0
+Distancia ate o vertice 101: 3.0
+Distancia ate o vertice 102: 2.0
+Distancia ate o vertice 103: 2.0
+Distancia ate o vertice 104: 2.0
+Distancia ate o vertice 105: 2.0
+Distancia ate o vertice 106: 2.0
+Distancia ate o vertice 107: 2.0
+Distancia ate o vertice 108: 2.0
+Distancia ate o vertice 109: 2.0
+Distancia ate o vertice 110: 2.0
+Distancia ate o vertice 111: 3.0
+Distancia ate o vertice 112: 2.0
+Distancia ate o vertice 113: 2.0
+Distancia ate o vertice 114: 2.0
+Distancia ate o vertice 115: 2.0
+Distancia ate o vertice 116: 2.0
+Distancia ate o vertice 117: 2.0
+Distancia ate o vertice 118: 2.0
+Distancia ate o vertice 119: 3.0
+Distancia ate o vertice 120: 2.0
+Distancia ate o vertice 121: 3.0
+Distancia ate o vertice 122: 2.0
+Distancia ate o vertice 123: 2.0
+Distancia ate o vertice 124: 2.0
+Distancia ate o vertice 125: 2.0
+Distancia ate o vertice 126: 2.0
+Distancia ate o vertice 127: 2.0
+Distancia ate o vertice 128: 2.0
+Distancia ate o vertice 129: 2.0
+Distancia ate o vertice 130: 3.0
+Distancia ate o vertice 131: 3.0
+Distancia ate o vertice 132: 2.0
+Distancia ate o vertice 133: 3.0
+Distancia ate o vertice 134: 2.0
+Distancia ate o vertice 135: 2.0
+Distancia ate o vertice 136: 2.0
+Distancia ate o vertice 137: 3.0
+Distancia ate o vertice 138: 2.0
+Distancia ate o vertice 139: 2.0
+Distancia ate o vertice 140: 3.0
+Distancia ate o vertice 141: 2.0
+Distancia ate o vertice 142: 3.0
+Distancia ate o vertice 143: 2.0
+Distancia ate o vertice 144: 1.0
+Distancia ate o vertice 145: 3.0
+Distancia ate o vertice 146: 2.0
+Distancia ate o vertice 147: 3.0
+Distancia ate o vertice 148: 3.0
+Distancia ate o vertice 149: 2.0
+Distancia ate o vertice 150: 2.0
+Distancia ate o vertice 151: 2.0
+Distancia ate o vertice 152: 1.0
+Distancia ate o vertice 153: 2.0
+Distancia ate o vertice 154: 2.0
+Distancia ate o vertice 155: 2.0
+Distancia ate o vertice 156: 2.0
+Distancia ate o vertice 157: 2.0
+Distancia ate o vertice 158: 2.0
+Distancia ate o vertice 159: 2.0
+Distancia ate o vertice 160: 2.0
+Distancia ate o vertice 161: 2.0
+Distancia ate o vertice 162: 2.0
+Distancia ate o vertice 163: 2.0
+Distancia ate o vertice 164: 3.0
+Distancia ate o vertice 165: 2.0
+Distancia ate o vertice 166: 2.0
+Distancia ate o vertice 167: 2.0
+Distancia ate o vertice 168: 3.0
+Distancia ate o vertice 169: 2.0
+Distancia ate o vertice 170: 3.0
+Distancia ate o vertice 171: 2.0
+Distancia ate o vertice 172: 2.0
+Distancia ate o vertice 173: 2.0
+Distancia ate o vertice 174: 3.0
+Distancia ate o vertice 175: 2.0
+Distancia ate o vertice 176: 2.0
+Distancia ate o vertice 177: 2.0
+Distancia ate o vertice 178: 3.0
+Distancia ate o vertice 179: 2.0
+Distancia ate o vertice 180: 2.0
+Distancia ate o vertice 181: 2.0
+Distancia ate o vertice 182: 2.0
+Distancia ate o vertice 183: 3.0
+Distancia ate o vertice 184: 2.0
+Distancia ate o vertice 185: 2.0
+Distancia ate o vertice 186: 2.0
+Distancia ate o vertice 187: 3.0
+Distancia ate o vertice 188: 2.0
+Distancia ate o vertice 189: 2.0
+Distancia ate o vertice 190: 1.0
+Distancia ate o vertice 191: 2.0
+Distancia ate o vertice 192: 2.0
+Distancia ate o vertice 193: 2.0
+Distancia ate o vertice 194: 3.0
+Distancia ate o vertice 195: 3.0
+Distancia ate o vertice 196: 2.0
+Distancia ate o vertice 197: 3.0
+Distancia ate o vertice 198: 2.0
+Distancia ate o vertice 199: 3.0
+Distancia ate o vertice 200: 3.0
+Distancia ate o vertice 201: 3.0
+Distancia ate o vertice 202: 2.0
+Distancia ate o vertice 203: 3.0
+Distancia ate o vertice 204: 2.0
+Distancia ate o vertice 205: 2.0
+Distancia ate o vertice 206: 3.0
+Distancia ate o vertice 207: 2.0
+Distancia ate o vertice 208: 3.0
+Distancia ate o vertice 209: 2.0
+Distancia ate o vertice 210: 2.0
+Distancia ate o vertice 211: 2.0
+Distancia ate o vertice 212: 3.0
+Distancia ate o vertice 213: 3.0
+Distancia ate o vertice 214: 2.0
+Distancia ate o vertice 215: 2.0
+Distancia ate o vertice 216: 2.0
+Distancia ate o vertice 217: 3.0
+Distancia ate o vertice 218: 2.0
+Distancia ate o vertice 219: 2.0
+Distancia ate o vertice 220: 2.0
+Distancia ate o vertice 221: 2.0
+Distancia ate o vertice 222: 2.0
+Distancia ate o vertice 223: 3.0
+Distancia ate o vertice 224: 2.0
+Distancia ate o vertice 225: 2.0
+Distancia ate o vertice 226: 2.0
+Distancia ate o vertice 227: 2.0
+Distancia ate o vertice 228: 2.0
+Distancia ate o vertice 229: 2.0
+Distancia ate o vertice 230: 2.0
+Distancia ate o vertice 231: 2.0
+Distancia ate o vertice 232: 2.0
+Distancia ate o vertice 233: 3.0
+Distancia ate o vertice 234: 2.0
+Distancia ate o vertice 235: 3.0
+Distancia ate o vertice 236: 2.0
+Distancia ate o vertice 237: 3.0
+Distancia ate o vertice 238: 2.0
+Distancia ate o vertice 239: 2.0
+Distancia ate o vertice 240: 2.0
+Distancia ate o vertice 241: 2.0
+Distancia ate o vertice 242: 2.0
+Distancia ate o vertice 243: 2.0
+Distancia ate o vertice 244: 2.0
+Distancia ate o vertice 245: 2.0
+Distancia ate o vertice 246: 3.0
+Distancia ate o vertice 247: 2.0
+Distancia ate o vertice 248: 2.0
+Distancia ate o vertice 249: 2.0
+Distancia ate o vertice 250: 2.0
+Distancia ate o vertice 251: 2.0
+Distancia ate o vertice 252: 3.0
+Distancia ate o vertice 253: 2.0
+Distancia ate o vertice 254: 2.0
+Distancia ate o vertice 255: 2.0
+Distancia ate o vertice 256: 3.0
+Distancia ate o vertice 257: 3.0
+Distancia ate o vertice 258: 2.0
+Distancia ate o vertice 259: 2.0
+Distancia ate o vertice 260: 2.0
+Distancia ate o vertice 261: 1.0
+Distancia ate o vertice 262: 3.0
+Distancia ate o vertice 263: 2.0
+Distancia ate o vertice 264: 2.0
+Distancia ate o vertice 265: 2.0
+Distancia ate o vertice 266: 2.0
+Distancia ate o vertice 267: 2.0
+Distancia ate o vertice 268: 2.0
+Distancia ate o vertice 269: 2.0
+Distancia ate o vertice 270: 2.0
+Distancia ate o vertice 271: 2.0
+Distancia ate o vertice 272: 2.0
+Distancia ate o vertice 273: 2.0
+Distancia ate o vertice 274: 2.0
+Distancia ate o vertice 275: 2.0
+Distancia ate o vertice 276: 3.0
+Distancia ate o vertice 277: 2.0
+Distancia ate o vertice 278: 2.0
+Distancia ate o vertice 279: 3.0
+Distancia ate o vertice 280: 2.0
+Distancia ate o vertice 281: 2.0
+Distancia ate o vertice 282: 2.0
+Distancia ate o vertice 283: 3.0
+Distancia ate o vertice 284: 2.0
+Distancia ate o vertice 285: 3.0
+Distancia ate o vertice 286: 3.0
+Distancia ate o vertice 287: 2.0
+Distancia ate o vertice 288: 2.0
+Distancia ate o vertice 289: 2.0
+Distancia ate o vertice 290: 2.0
+Distancia ate o vertice 291: 2.0
+Distancia ate o vertice 292: 2.0
+Distancia ate o vertice 293: 3.0
+Distancia ate o vertice 294: 2.0
+Distancia ate o vertice 295: 3.0
+Distancia ate o vertice 296: 2.0
+Distancia ate o vertice 297: 2.0
+Distancia ate o vertice 298: 2.0
+Distancia ate o vertice 299: 2.0
+Distancia ate o vertice 300: 2.0
+Distancia ate o vertice 301: 3.0
+Distancia ate o vertice 302: 2.0
+Distancia ate o vertice 303: 3.0
+Distancia ate o vertice 304: 2.0
+Distancia ate o vertice 305: 2.0
+Distancia ate o vertice 306: 3.0
+Distancia ate o vertice 307: 2.0
+Distancia ate o vertice 308: 2.0
+Distancia ate o vertice 309: 2.0
+Distancia ate o vertice 310: 2.0
+Distancia ate o vertice 311: 2.0
+Distancia ate o vertice 312: 2.0
+Distancia ate o vertice 313: 2.0
+Distancia ate o vertice 314: 3.0
+Distancia ate o vertice 315: 2.0
+Distancia ate o vertice 316: 1.0
+Distancia ate o vertice 317: 2.0
+Distancia ate o vertice 318: 2.0
+Distancia ate o vertice 319: 2.0
+Distancia ate o vertice 320: 2.0
+Distancia ate o vertice 321: 3.0
+Distancia ate o vertice 322: 2.0
+Distancia ate o vertice 323: 2.0
+Distancia ate o vertice 324: 2.0
+Distancia ate o vertice 325: 2.0
+Distancia ate o vertice 326: 2.0
+Distancia ate o vertice 327: 2.0
+Distancia ate o vertice 328: 2.0
+Distancia ate o vertice 329: 2.0
+Distancia ate o vertice 330: 3.0
+Distancia ate o vertice 331: 1.0
+Distancia ate o vertice 332: 3.0
+Distancia ate o vertice 333: 2.0
+Distancia ate o vertice 334: 2.0
+Distancia ate o vertice 335: 2.0
+Distancia ate o vertice 336: 2.0
+Distancia ate o vertice 337: 1.0
+Distancia ate o vertice 338: 2.0
+Distancia ate o vertice 339: 2.0
+Distancia ate o vertice 340: 2.0
+Distancia ate o vertice 341: 2.0
+Distancia ate o vertice 342: 2.0
+Distancia ate o vertice 343: 2.0
+Distancia ate o vertice 344: 2.0
+Distancia ate o vertice 345: 2.0
+Distancia ate o vertice 346: 3.0
+Distancia ate o vertice 347: 2.0
+Distancia ate o vertice 348: 2.0
+Distancia ate o vertice 349: 2.0
+Distancia ate o vertice 350: 3.0
+Distancia ate o vertice 351: 2.0
+Distancia ate o vertice 352: 3.0
+Distancia ate o vertice 353: 3.0
+Distancia ate o vertice 354: 2.0
+Distancia ate o vertice 355: 2.0
+Distancia ate o vertice 356: 2.0
+Distancia ate o vertice 357: 3.0
+Distancia ate o vertice 358: 3.0
+Distancia ate o vertice 359: 2.0
+Distancia ate o vertice 360: 2.0
+Distancia ate o vertice 361: 3.0
+Distancia ate o vertice 362: 2.0
+Distancia ate o vertice 363: 2.0
+Distancia ate o vertice 364: 2.0
+Distancia ate o vertice 365: 2.0
+Distancia ate o vertice 366: 2.0
+Distancia ate o vertice 367: 2.0
+Distancia ate o vertice 368: 2.0
+Distancia ate o vertice 369: 2.0
+Distancia ate o vertice 370: 2.0
+Distancia ate o vertice 371: 2.0
+Distancia ate o vertice 372: 2.0
+Distancia ate o vertice 373: 2.0
+Distancia ate o vertice 374: 2.0
+Distancia ate o vertice 375: 2.0
+Distancia ate o vertice 376: 2.0
+Distancia ate o vertice 377: 2.0
+Distancia ate o vertice 378: 2.0
+Distancia ate o vertice 379: 2.0
+Distancia ate o vertice 380: 2.0
+Distancia ate o vertice 381: 2.0
+Distancia ate o vertice 382: 2.0
+Distancia ate o vertice 383: 2.0
+Distancia ate o vertice 384: 2.0
+Distancia ate o vertice 385: 2.0
+Distancia ate o vertice 386: 3.0
+Distancia ate o vertice 387: 2.0
+Distancia ate o vertice 388: 2.0
+Distancia ate o vertice 389: 2.0
+Distancia ate o vertice 390: 2.0
+Distancia ate o vertice 391: 2.0
+Distancia ate o vertice 392: 2.0
+Distancia ate o vertice 393: 2.0
+Distancia ate o vertice 394: 2.0
+Distancia ate o vertice 395: 2.0
+Distancia ate o vertice 396: 2.0
+Distancia ate o vertice 397: 2.0
+Distancia ate o vertice 398: 1.0
+Distancia ate o vertice 399: 2.0
+Distancia ate o vertice 400: 3.0
+Distancia ate o vertice 401: 3.0
+Distancia ate o vertice 402: 2.0
+Distancia ate o vertice 403: 2.0
+Distancia ate o vertice 404: 2.0
+Distancia ate o vertice 405: 2.0
+Distancia ate o vertice 406: 2.0
+Distancia ate o vertice 407: 3.0
+Distancia ate o vertice 408: 3.0
+Distancia ate o vertice 409: 3.0
+Distancia ate o vertice 410: 1.0
+Distancia ate o vertice 411: 2.0
+Distancia ate o vertice 412: 2.0
+Distancia ate o vertice 413: 2.0
+Distancia ate o vertice 414: 3.0
+Distancia ate o vertice 415: 3.0
+Distancia ate o vertice 416: 2.0
+Distancia ate o vertice 417: 2.0
+Distancia ate o vertice 418: 2.0
+Distancia ate o vertice 419: 2.0
+Distancia ate o vertice 420: 2.0
+Distancia ate o vertice 421: 2.0
+Distancia ate o vertice 422: 2.0
+Distancia ate o vertice 423: 2.0
+Distancia ate o vertice 424: 3.0
+Distancia ate o vertice 425: 3.0
+Distancia ate o vertice 426: 2.0
+Distancia ate o vertice 427: 2.0
+Distancia ate o vertice 428: 3.0
+Distancia ate o vertice 429: 3.0
+Distancia ate o vertice 430: 2.0
+Distancia ate o vertice 431: 2.0
+Distancia ate o vertice 432: 2.0
+Distancia ate o vertice 433: 3.0
+Distancia ate o vertice 434: 2.0
+Distancia ate o vertice 435: 2.0
+Distancia ate o vertice 436: 2.0
+Distancia ate o vertice 437: 3.0
+Distancia ate o vertice 438: 2.0
+Distancia ate o vertice 439: 2.0
+Distancia ate o vertice 440: 3.0
+Distancia ate o vertice 441: 2.0
+Distancia ate o vertice 442: 2.0
+Distancia ate o vertice 443: 2.0
+Distancia ate o vertice 444: 2.0
+Distancia ate o vertice 445: 2.0
+Distancia ate o vertice 446: 3.0
+Distancia ate o vertice 447: 2.0
+Distancia ate o vertice 448: 3.0
+Distancia ate o vertice 449: 2.0
+Distancia ate o vertice 450: 2.0
+Distancia ate o vertice 451: 3.0
+Distancia ate o vertice 452: 2.0
+Distancia ate o vertice 453: 2.0
+Distancia ate o vertice 454: 2.0
+Distancia ate o vertice 455: 2.0
+Distancia ate o vertice 456: 2.0
+Distancia ate o vertice 457: 2.0
+Distancia ate o vertice 458: 2.0
+Distancia ate o vertice 459: 2.0
+Distancia ate o vertice 460: 2.0
+Distancia ate o vertice 461: 2.0
+Distancia ate o vertice 462: 2.0
+Distancia ate o vertice 463: 2.0
+Distancia ate o vertice 464: 2.0
+Distancia ate o vertice 465: 2.0
+Distancia ate o vertice 466: 2.0
+Distancia ate o vertice 467: 3.0
+Distancia ate o vertice 468: 2.0
+Distancia ate o vertice 469: 2.0
+Distancia ate o vertice 470: 2.0
+Distancia ate o vertice 471: 3.0
+Distancia ate o vertice 472: 2.0
+Distancia ate o vertice 473: 2.0
+Distancia ate o vertice 474: 2.0
+Distancia ate o vertice 475: 2.0
+Distancia ate o vertice 476: 2.0
+Distancia ate o vertice 477: 3.0
+Distancia ate o vertice 478: 2.0
+Distancia ate o vertice 479: 3.0
+Distancia ate o vertice 480: 2.0
+Distancia ate o vertice 481: 3.0
+Distancia ate o vertice 482: 3.0
+Distancia ate o vertice 483: 3.0
+Distancia ate o vertice 484: 3.0
+Distancia ate o vertice 485: 3.0
+Distancia ate o vertice 486: 2.0
+Distancia ate o vertice 487: 2.0
+Distancia ate o vertice 488: 2.0
+Distancia ate o vertice 489: 2.0
+Distancia ate o vertice 490: 2.0
+Distancia ate o vertice 491: 2.0
+Distancia ate o vertice 492: 2.0
+Distancia ate o vertice 493: 3.0
+Distancia ate o vertice 494: 2.0
+Distancia ate o vertice 495: 1.0
+Distancia ate o vertice 496: 3.0
+Distancia ate o vertice 497: 1.0
+Distancia ate o vertice 498: 2.0
+Distancia ate o vertice 499: 2.0
+Distancia ate o vertice 500: 1.0
+Distancia ate o vertice 501: 2.0
+Distancia ate o vertice 502: 1.0
+Distancia ate o vertice 503: 2.0
+Distancia ate o vertice 504: 3.0
+Distancia ate o vertice 505: 2.0
+Distancia ate o vertice 506: 2.0
+Distancia ate o vertice 507: 2.0
+Distancia ate o vertice 508: 2.0
+Distancia ate o vertice 509: 3.0
+Distancia ate o vertice 510: 2.0
+Distancia ate o vertice 511: 2.0
+Distancia ate o vertice 512: 2.0
+Distancia ate o vertice 513: 3.0
+Distancia ate o vertice 514: 2.0
+Distancia ate o vertice 515: 2.0
+Distancia ate o vertice 516: 3.0
+Distancia ate o vertice 517: 3.0
+Distancia ate o vertice 518: 2.0
+Distancia ate o vertice 519: 2.0
+Distancia ate o vertice 520: 2.0
+Distancia ate o vertice 521: 2.0
+Distancia ate o vertice 522: 1.0
+Distancia ate o vertice 523: 3.0
+Distancia ate o vertice 524: 3.0
+Distancia ate o vertice 525: 2.0
+Distancia ate o vertice 526: 2.0
+Distancia ate o vertice 527: 2.0
+Distancia ate o vertice 528: 3.0
+Distancia ate o vertice 529: 3.0
+Distancia ate o vertice 530: 3.0
+Distancia ate o vertice 531: 2.0
+Distancia ate o vertice 532: 3.0
+Distancia ate o vertice 533: 3.0
+Distancia ate o vertice 534: 2.0
+Distancia ate o vertice 535: 2.0
+Distancia ate o vertice 536: 1.0
+Distancia ate o vertice 537: 2.0
+Distancia ate o vertice 538: 2.0
+Distancia ate o vertice 539: 2.0
+Distancia ate o vertice 540: 2.0
+Distancia ate o vertice 541: 3.0
+Distancia ate o vertice 542: 3.0
+Distancia ate o vertice 543: 2.0
+Distancia ate o vertice 544: 2.0
+Distancia ate o vertice 545: 3.0
+Distancia ate o vertice 546: 2.0
+Distancia ate o vertice 547: 2.0
+Distancia ate o vertice 548: 2.0
+Distancia ate o vertice 549: 3.0
+Distancia ate o vertice 550: 2.0
+Distancia ate o vertice 551: 2.0
+Distancia ate o vertice 552: 2.0
+Distancia ate o vertice 553: 2.0
+Distancia ate o vertice 554: 2.0
+Distancia ate o vertice 555: 2.0
+Distancia ate o vertice 556: 2.0
+Distancia ate o vertice 557: 2.0
+Distancia ate o vertice 558: 2.0
+Distancia ate o vertice 559: 2.0
+Distancia ate o vertice 560: 3.0
+Distancia ate o vertice 561: 2.0
+Distancia ate o vertice 562: 2.0
+Distancia ate o vertice 563: 2.0
+Distancia ate o vertice 564: 2.0
+Distancia ate o vertice 565: 3.0
+Distancia ate o vertice 566: 2.0
+Distancia ate o vertice 567: 3.0
+Distancia ate o vertice 568: 3.0
+Distancia ate o vertice 569: 3.0
+Distancia ate o vertice 570: 2.0
+Distancia ate o vertice 571: 2.0
+Distancia ate o vertice 572: 2.0
+Distancia ate o vertice 573: 2.0
+Distancia ate o vertice 574: 2.0
+Distancia ate o vertice 575: 2.0
+Distancia ate o vertice 576: 2.0
+Distancia ate o vertice 577: 2.0
+Distancia ate o vertice 578: 3.0
+Distancia ate o vertice 579: 1.0
+Distancia ate o vertice 580: 2.0
+Distancia ate o vertice 581: 3.0
+Distancia ate o vertice 582: 2.0
+Distancia ate o vertice 583: 2.0
+Distancia ate o vertice 584: 2.0
+Distancia ate o vertice 585: 1.0
+Distancia ate o vertice 586: 2.0
+Distancia ate o vertice 587: 2.0
+Distancia ate o vertice 588: 2.0
+Distancia ate o vertice 589: 2.0
+Distancia ate o vertice 590: 2.0
+Distancia ate o vertice 591: 2.0
+Distancia ate o vertice 592: 3.0
+Distancia ate o vertice 593: 2.0
+Distancia ate o vertice 594: 2.0
+Distancia ate o vertice 595: 1.0
+Distancia ate o vertice 596: 2.0
+Distancia ate o vertice 597: 3.0
+Distancia ate o vertice 598: 2.0
+Distancia ate o vertice 599: 3.0
+Distancia ate o vertice 600: 2.0
+Distancia ate o vertice 601: 2.0
+Distancia ate o vertice 602: 2.0
+Distancia ate o vertice 603: 1.0
+Distancia ate o vertice 604: 2.0
+Distancia ate o vertice 605: 3.0
+Distancia ate o vertice 606: 2.0
+Distancia ate o vertice 607: 2.0
+Distancia ate o vertice 608: 3.0
+Distancia ate o vertice 609: 2.0
+Distancia ate o vertice 610: 2.0
+Distancia ate o vertice 611: 2.0
+Distancia ate o vertice 612: 2.0
+Distancia ate o vertice 613: 3.0
+Distancia ate o vertice 614: 3.0
+Distancia ate o vertice 615: 2.0
+Distancia ate o vertice 616: 2.0
+Distancia ate o vertice 617: 2.0
+Distancia ate o vertice 618: 2.0
+Distancia ate o vertice 619: 3.0
+Distancia ate o vertice 620: 2.0
+Distancia ate o vertice 621: 2.0
+Distancia ate o vertice 622: 2.0
+Distancia ate o vertice 623: 3.0
+Distancia ate o vertice 624: 3.0
+Distancia ate o vertice 625: 2.0
+Distancia ate o vertice 626: 1.0
+Distancia ate o vertice 627: 2.0
+Distancia ate o vertice 628: 2.0
+Distancia ate o vertice 629: 2.0
+Distancia ate o vertice 630: 2.0
+Distancia ate o vertice 631: 1.0
+Distancia ate o vertice 632: 2.0
+Distancia ate o vertice 633: 2.0
+Distancia ate o vertice 634: 2.0
+Distancia ate o vertice 635: 2.0
+Distancia ate o vertice 636: 3.0
+Distancia ate o vertice 637: 2.0
+Distancia ate o vertice 638: 2.0
+Distancia ate o vertice 639: 2.0
+Distancia ate o vertice 640: 2.0
+Distancia ate o vertice 641: 2.0
+Distancia ate o vertice 642: 2.0
+Distancia ate o vertice 643: 2.0
+Distancia ate o vertice 644: 2.0
+Distancia ate o vertice 645: 2.0
+Distancia ate o vertice 646: 2.0
+Distancia ate o vertice 647: 3.0
+Distancia ate o vertice 648: 2.0
+Distancia ate o vertice 649: 3.0
+Distancia ate o vertice 650: 3.0
+Distancia ate o vertice 651: 3.0
+Distancia ate o vertice 652: 2.0
+Distancia ate o vertice 653: 2.0
+Distancia ate o vertice 654: 2.0
+Distancia ate o vertice 655: 2.0
+Distancia ate o vertice 656: 2.0
+Distancia ate o vertice 657: 2.0
+Distancia ate o vertice 658: 2.0
+Distancia ate o vertice 659: 3.0
+Distancia ate o vertice 660: 3.0
+Distancia ate o vertice 661: 2.0
+Distancia ate o vertice 662: 3.0
+Distancia ate o vertice 663: 3.0
+Distancia ate o vertice 664: 2.0
+Distancia ate o vertice 665: 2.0
+Distancia ate o vertice 666: 2.0
+Distancia ate o vertice 667: 2.0
+Distancia ate o vertice 668: 2.0
+Distancia ate o vertice 669: 3.0
+Distancia ate o vertice 670: 2.0
+Distancia ate o vertice 671: 2.0
+Distancia ate o vertice 672: 2.0
+Distancia ate o vertice 673: 1.0
+Distancia ate o vertice 674: 3.0
+Distancia ate o vertice 675: 2.0
+Distancia ate o vertice 676: 2.0
+Distancia ate o vertice 677: 3.0
+Distancia ate o vertice 678: 2.0
+Distancia ate o vertice 679: 2.0
+Distancia ate o vertice 680: 2.0
+Distancia ate o vertice 681: 2.0
+Distancia ate o vertice 682: 2.0
+Distancia ate o vertice 683: 2.0
+Distancia ate o vertice 684: 3.0
+Distancia ate o vertice 685: 2.0
+Distancia ate o vertice 686: 3.0
+Distancia ate o vertice 687: 2.0
+Distancia ate o vertice 688: 2.0
+Distancia ate o vertice 689: 2.0
+Distancia ate o vertice 690: 2.0
+Distancia ate o vertice 691: 2.0
+Distancia ate o vertice 692: 3.0
+Distancia ate o vertice 693: 2.0
+Distancia ate o vertice 694: 2.0
+Distancia ate o vertice 695: 2.0
+Distancia ate o vertice 696: 2.0
+Distancia ate o vertice 697: 2.0
+Distancia ate o vertice 698: 2.0
+Distancia ate o vertice 699: 3.0
+Distancia ate o vertice 700: 3.0
+Distancia ate o vertice 701: 2.0
+Distancia ate o vertice 702: 2.0
+Distancia ate o vertice 703: 1.0
+Distancia ate o vertice 704: 2.0
+Distancia ate o vertice 705: 3.0
+Distancia ate o vertice 706: 2.0
+Distancia ate o vertice 707: 2.0
+Distancia ate o vertice 708: 2.0
+Distancia ate o vertice 709: 2.0
+Distancia ate o vertice 710: 3.0
+Distancia ate o vertice 711: 3.0
+Distancia ate o vertice 712: 2.0
+Distancia ate o vertice 713: 3.0
+Distancia ate o vertice 714: 2.0
+Distancia ate o vertice 715: 2.0
+Distancia ate o vertice 716: 2.0
+Distancia ate o vertice 717: 3.0
+Distancia ate o vertice 718: 2.0
+Distancia ate o vertice 719: 2.0
+Distancia ate o vertice 720: 2.0
+Distancia ate o vertice 721: 2.0
+Distancia ate o vertice 722: 2.0
+Distancia ate o vertice 723: 2.0
+Distancia ate o vertice 724: 2.0
+Distancia ate o vertice 725: 3.0
+Distancia ate o vertice 726: 2.0
+Distancia ate o vertice 727: 2.0
+Distancia ate o vertice 728: 3.0
+Distancia ate o vertice 729: 2.0
+Distancia ate o vertice 730: 2.0
+Distancia ate o vertice 731: 2.0
+Distancia ate o vertice 732: 2.0
+Distancia ate o vertice 733: 2.0
+Distancia ate o vertice 734: 3.0
+Distancia ate o vertice 735: 2.0
+Distancia ate o vertice 736: 2.0
+Distancia ate o vertice 737: 2.0
+Distancia ate o vertice 738: 2.0
+Distancia ate o vertice 739: 2.0
+Distancia ate o vertice 740: 3.0
+Distancia ate o vertice 741: 2.0
+Distancia ate o vertice 742: 2.0
+Distancia ate o vertice 743: 2.0
+Distancia ate o vertice 744: 2.0
+Distancia ate o vertice 745: 2.0
+Distancia ate o vertice 746: 2.0
+Distancia ate o vertice 747: 2.0
+Distancia ate o vertice 748: 2.0
+Distancia ate o vertice 749: 2.0
+Distancia ate o vertice 750: 2.0
+Distancia ate o vertice 751: 2.0
+Distancia ate o vertice 752: 2.0
+Distancia ate o vertice 753: 2.0
+Distancia ate o vertice 754: 2.0
+Distancia ate o vertice 755: 2.0
+Distancia ate o vertice 756: 2.0
+Distancia ate o vertice 757: 2.0
+Distancia ate o vertice 758: 2.0
+Distancia ate o vertice 759: 2.0
+Distancia ate o vertice 760: 2.0
+Distancia ate o vertice 761: 2.0
+Distancia ate o vertice 762: 2.0
+Distancia ate o vertice 763: 2.0
+Distancia ate o vertice 764: 3.0
+Distancia ate o vertice 765: 3.0
+Distancia ate o vertice 766: 3.0
+Distancia ate o vertice 767: 2.0
+Distancia ate o vertice 768: 2.0
+Distancia ate o vertice 769: 2.0
+Distancia ate o vertice 770: 2.0
+Distancia ate o vertice 771: 3.0
+Distancia ate o vertice 772: 3.0
+Distancia ate o vertice 773: 2.0
+Distancia ate o vertice 774: 2.0
+Distancia ate o vertice 775: 3.0
+Distancia ate o vertice 776: 3.0
+Distancia ate o vertice 777: 3.0
+Distancia ate o vertice 778: 2.0
+Distancia ate o vertice 779: 2.0
+Distancia ate o vertice 780: 2.0
+Distancia ate o vertice 781: 3.0
+Distancia ate o vertice 782: 1.0
+Distancia ate o vertice 783: 2.0
+Distancia ate o vertice 784: 2.0
+Distancia ate o vertice 785: 2.0
+Distancia ate o vertice 786: 2.0
+Distancia ate o vertice 787: 2.0
+Distancia ate o vertice 788: 2.0
+Distancia ate o vertice 789: 3.0
+Distancia ate o vertice 790: 2.0
+Distancia ate o vertice 791: 2.0
+Distancia ate o vertice 792: 2.0
+Distancia ate o vertice 793: 2.0
+Distancia ate o vertice 794: 2.0
+Distancia ate o vertice 795: 3.0
+Distancia ate o vertice 796: 2.0
+Distancia ate o vertice 797: 2.0
+Distancia ate o vertice 798: 2.0
+Distancia ate o vertice 799: 2.0
+Distancia ate o vertice 800: 2.0
+Distancia ate o vertice 801: 3.0
+Distancia ate o vertice 802: 2.0
+Distancia ate o vertice 803: 3.0
+Distancia ate o vertice 804: 3.0
+Distancia ate o vertice 805: 2.0
+Distancia ate o vertice 806: 2.0
+Distancia ate o vertice 807: 3.0
+Distancia ate o vertice 808: 2.0
+Distancia ate o vertice 809: 2.0
+Distancia ate o vertice 810: 3.0
+Distancia ate o vertice 811: 2.0
+Distancia ate o vertice 812: 2.0
+Distancia ate o vertice 813: 2.0
+Distancia ate o vertice 814: 2.0
+Distancia ate o vertice 815: 3.0
+Distancia ate o vertice 816: 2.0
+Distancia ate o vertice 817: 2.0
+Distancia ate o vertice 818: 2.0
+Distancia ate o vertice 819: 2.0
+Distancia ate o vertice 820: 2.0
+Distancia ate o vertice 821: 2.0
+Distancia ate o vertice 822: 2.0
+Distancia ate o vertice 823: 1.0
+Distancia ate o vertice 824: 2.0
+Distancia ate o vertice 825: 2.0
+Distancia ate o vertice 826: 3.0
+Distancia ate o vertice 827: 2.0
+Distancia ate o vertice 828: 2.0
+Distancia ate o vertice 829: 2.0
+Distancia ate o vertice 830: 2.0
+Distancia ate o vertice 831: 3.0
+Distancia ate o vertice 832: 2.0
+Distancia ate o vertice 833: 2.0
+Distancia ate o vertice 834: 2.0
+Distancia ate o vertice 835: 2.0
+Distancia ate o vertice 836: 2.0
+Distancia ate o vertice 837: 2.0
+Distancia ate o vertice 838: 2.0
+Distancia ate o vertice 839: 3.0
+Distancia ate o vertice 840: 2.0
+Distancia ate o vertice 841: 2.0
+Distancia ate o vertice 842: 2.0
+Distancia ate o vertice 843: 2.0
+Distancia ate o vertice 844: 3.0
+Distancia ate o vertice 845: 2.0
+Distancia ate o vertice 846: 2.0
+Distancia ate o vertice 847: 3.0
+Distancia ate o vertice 848: 2.0
+Distancia ate o vertice 849: 2.0
+Distancia ate o vertice 850: 2.0
+Distancia ate o vertice 851: 3.0
+Distancia ate o vertice 852: 2.0
+Distancia ate o vertice 853: 2.0
+Distancia ate o vertice 854: 3.0
+Distancia ate o vertice 855: 2.0
+Distancia ate o vertice 856: 2.0
+Distancia ate o vertice 857: 2.0
+Distancia ate o vertice 858: 2.0
+Distancia ate o vertice 859: 2.0
+Distancia ate o vertice 860: 2.0
+Distancia ate o vertice 861: 2.0
+Distancia ate o vertice 862: 2.0
+Distancia ate o vertice 863: 3.0
+Distancia ate o vertice 864: 2.0
+Distancia ate o vertice 865: 3.0
+Distancia ate o vertice 866: 2.0
+Distancia ate o vertice 867: 2.0
+Distancia ate o vertice 868: 2.0
+Distancia ate o vertice 869: 2.0
+Distancia ate o vertice 870: 2.0
+Distancia ate o vertice 871: 3.0
+Distancia ate o vertice 872: 3.0
+Distancia ate o vertice 873: 2.0
+Distancia ate o vertice 874: 1.0
+Distancia ate o vertice 875: 2.0
+Distancia ate o vertice 876: 2.0
+Distancia ate o vertice 877: 1.0
+Distancia ate o vertice 878: 3.0
+Distancia ate o vertice 879: 2.0
+Distancia ate o vertice 880: 2.0
+Distancia ate o vertice 881: 2.0
+Distancia ate o vertice 882: 2.0
+Distancia ate o vertice 883: 2.0
+Distancia ate o vertice 884: 3.0
+Distancia ate o vertice 885: 3.0
+Distancia ate o vertice 886: 2.0
+Distancia ate o vertice 887: 2.0
+Distancia ate o vertice 888: 3.0
+Distancia ate o vertice 889: 2.0
+Distancia ate o vertice 890: 2.0
+Distancia ate o vertice 891: 2.0
+Distancia ate o vertice 892: 2.0
+Distancia ate o vertice 893: 1.0
+Distancia ate o vertice 894: 3.0
+Distancia ate o vertice 895: 2.0
+Distancia ate o vertice 896: 3.0
+Distancia ate o vertice 897: 2.0
+Distancia ate o vertice 898: 3.0
+Distancia ate o vertice 899: 3.0
+Distancia ate o vertice 900: 2.0
+Distancia ate o vertice 901: 2.0
+Distancia ate o vertice 902: 3.0
+Distancia ate o vertice 903: 2.0
+Distancia ate o vertice 904: 2.0
+Distancia ate o vertice 905: 2.0
+Distancia ate o vertice 906: 2.0
+Distancia ate o vertice 907: 2.0
+Distancia ate o vertice 908: 2.0
+Distancia ate o vertice 909: 2.0
+Distancia ate o vertice 910: 2.0
+Distancia ate o vertice 911: 3.0
+Distancia ate o vertice 912: 2.0
+Distancia ate o vertice 913: 2.0
+Distancia ate o vertice 914: 3.0
+Distancia ate o vertice 915: 2.0
+Distancia ate o vertice 916: 2.0
+Distancia ate o vertice 917: 2.0
+Distancia ate o vertice 918: 3.0
+Distancia ate o vertice 919: 2.0
+Distancia ate o vertice 920: 3.0
+Distancia ate o vertice 921: 2.0
+Distancia ate o vertice 922: 3.0
+Distancia ate o vertice 923: 2.0
+Distancia ate o vertice 924: 2.0
+Distancia ate o vertice 925: 2.0
+Distancia ate o vertice 926: 2.0
+Distancia ate o vertice 927: 3.0
+Distancia ate o vertice 928: 2.0
+Distancia ate o vertice 929: 3.0
+Distancia ate o vertice 930: 2.0
+Distancia ate o vertice 931: 2.0
+Distancia ate o vertice 932: 2.0
+Distancia ate o vertice 933: 2.0
+Distancia ate o vertice 934: 2.0
+Distancia ate o vertice 935: 2.0
+Distancia ate o vertice 936: 3.0
+Distancia ate o vertice 937: 2.0
+Distancia ate o vertice 938: 2.0
+Distancia ate o vertice 939: 2.0
+Distancia ate o vertice 940: 2.0
+Distancia ate o vertice 941: 2.0
+Distancia ate o vertice 942: 2.0
+Distancia ate o vertice 943: 2.0
+Distancia ate o vertice 944: 2.0
+Distancia ate o vertice 945: 2.0
+Distancia ate o vertice 946: 2.0
+Distancia ate o vertice 947: 2.0
+Distancia ate o vertice 948: 2.0
+Distancia ate o vertice 949: 3.0
+Distancia ate o vertice 950: 2.0
+Distancia ate o vertice 951: 3.0
+Distancia ate o vertice 952: 2.0
+Distancia ate o vertice 953: 2.0
+Distancia ate o vertice 954: 3.0
+Distancia ate o vertice 955: 3.0
+Distancia ate o vertice 956: 2.0
+Distancia ate o vertice 957: 2.0
+Distancia ate o vertice 958: 2.0
+Distancia ate o vertice 959: 2.0
+Distancia ate o vertice 960: 3.0
+Distancia ate o vertice 961: 2.0
+Distancia ate o vertice 962: 2.0
+Distancia ate o vertice 963: 2.0
+Distancia ate o vertice 964: 2.0
+Distancia ate o vertice 965: 3.0
+Distancia ate o vertice 966: 2.0
+Distancia ate o vertice 967: 1.0
+Distancia ate o vertice 968: 2.0
+Distancia ate o vertice 969: 1.0
+Distancia ate o vertice 970: 3.0
+Distancia ate o vertice 971: 3.0
+Distancia ate o vertice 972: 3.0
+Distancia ate o vertice 973: 3.0
+Distancia ate o vertice 974: 2.0
+Distancia ate o vertice 975: 2.0
+Distancia ate o vertice 976: 2.0
+Distancia ate o vertice 977: 2.0
+Distancia ate o vertice 978: 2.0
+Distancia ate o vertice 979: 2.0
+Distancia ate o vertice 980: 2.0
+Distancia ate o vertice 981: 2.0
+Distancia ate o vertice 982: 2.0
+Distancia ate o vertice 983: 3.0
+Distancia ate o vertice 984: 3.0
+Distancia ate o vertice 985: 2.0
+Distancia ate o vertice 986: 2.0
+Distancia ate o vertice 987: 2.0
+Distancia ate o vertice 988: 2.0
+Distancia ate o vertice 989: 2.0
+Distancia ate o vertice 990: 3.0
+Distancia ate o vertice 991: 2.0
+Distancia ate o vertice 992: 2.0
+Distancia ate o vertice 993: 2.0
+Distancia ate o vertice 994: 2.0
+Distancia ate o vertice 995: 2.0
+Distancia ate o vertice 996: 3.0
+Distancia ate o vertice 997: 3.0
+Distancia ate o vertice 998: 2.0
+Distancia ate o vertice 999: 2.0
+Distancia ate o vertice 1000: 2.0
+Distancia media: 2.20
+
+
+
+
+
+Distancia minima:
+
+Vertices visitados do caminho minimo, com origem 1 e destino 1000:
+ vertice: 4 de peso 1.0
+vertice: 52 de peso 1.0
+vertice: 144 de peso 1.0
+vertice: 152 de peso 1.0
+vertice: 190 de peso 1.0
+vertice: 261 de peso 1.0
+vertice: 316 de peso 1.0
+vertice: 331 de peso 1.0
+vertice: 337 de peso 1.0
+vertice: 398 de peso 1.0
+vertice: 410 de peso 1.0
+vertice: 495 de peso 1.0
+vertice: 497 de peso 1.0
+vertice: 500 de peso 1.0
+vertice: 502 de peso 1.0
+vertice: 522 de peso 1.0
+vertice: 536 de peso 1.0
+vertice: 579 de peso 1.0
+vertice: 585 de peso 1.0
+vertice: 595 de peso 1.0
+vertice: 603 de peso 1.0
+vertice: 626 de peso 1.0
+vertice: 631 de peso 1.0
+vertice: 673 de peso 1.0
+vertice: 703 de peso 1.0
+vertice: 782 de peso 1.0
+vertice: 823 de peso 1.0
+vertice: 874 de peso 1.0
+vertice: 877 de peso 1.0
+vertice: 893 de peso 1.0
+vertice: 967 de peso 1.0
+vertice: 969 de peso 1.0
+vertice: 2 de peso 2.0
+vertice: 3 de peso 2.0
+vertice: 5 de peso 2.0
+vertice: 6 de peso 2.0
+vertice: 8 de peso 2.0
+vertice: 9 de peso 2.0
+vertice: 10 de peso 2.0
+vertice: 12 de peso 2.0
+vertice: 14 de peso 2.0
+vertice: 15 de peso 2.0
+vertice: 16 de peso 2.0
+vertice: 17 de peso 2.0
+vertice: 18 de peso 2.0
+vertice: 19 de peso 2.0
+vertice: 21 de peso 2.0
+vertice: 22 de peso 2.0
+vertice: 23 de peso 2.0
+vertice: 26 de peso 2.0
+vertice: 27 de peso 2.0
+vertice: 29 de peso 2.0
+vertice: 30 de peso 2.0
+vertice: 31 de peso 2.0
+vertice: 34 de peso 2.0
+vertice: 35 de peso 2.0
+vertice: 37 de peso 2.0
+vertice: 39 de peso 2.0
+vertice: 41 de peso 2.0
+vertice: 42 de peso 2.0
+vertice: 43 de peso 2.0
+vertice: 44 de peso 2.0
+vertice: 45 de peso 2.0
+vertice: 46 de peso 2.0
+vertice: 47 de peso 2.0
+vertice: 48 de peso 2.0
+vertice: 49 de peso 2.0
+vertice: 54 de peso 2.0
+vertice: 55 de peso 2.0
+vertice: 57 de peso 2.0
+vertice: 58 de peso 2.0
+vertice: 59 de peso 2.0
+vertice: 61 de peso 2.0
+vertice: 62 de peso 2.0
+vertice: 63 de peso 2.0
+vertice: 64 de peso 2.0
+vertice: 66 de peso 2.0
+vertice: 67 de peso 2.0
+vertice: 69 de peso 2.0
+vertice: 70 de peso 2.0
+vertice: 71 de peso 2.0
+vertice: 72 de peso 2.0
+vertice: 73 de peso 2.0
+vertice: 76 de peso 2.0
+vertice: 77 de peso 2.0
+vertice: 78 de peso 2.0
+vertice: 79 de peso 2.0
+vertice: 80 de peso 2.0
+vertice: 81 de peso 2.0
+vertice: 82 de peso 2.0
+vertice: 83 de peso 2.0
+vertice: 84 de peso 2.0
+vertice: 85 de peso 2.0
+vertice: 86 de peso 2.0
+vertice: 87 de peso 2.0
+vertice: 88 de peso 2.0
+vertice: 90 de peso 2.0
+vertice: 91 de peso 2.0
+vertice: 92 de peso 2.0
+vertice: 94 de peso 2.0
+vertice: 95 de peso 2.0
+vertice: 96 de peso 2.0
+vertice: 97 de peso 2.0
+vertice: 99 de peso 2.0
+vertice: 100 de peso 2.0
+vertice: 102 de peso 2.0
+vertice: 103 de peso 2.0
+vertice: 104 de peso 2.0
+vertice: 105 de peso 2.0
+vertice: 106 de peso 2.0
+vertice: 107 de peso 2.0
+vertice: 108 de peso 2.0
+vertice: 109 de peso 2.0
+vertice: 110 de peso 2.0
+vertice: 112 de peso 2.0
+vertice: 113 de peso 2.0
+vertice: 114 de peso 2.0
+vertice: 115 de peso 2.0
+vertice: 116 de peso 2.0
+vertice: 117 de peso 2.0
+vertice: 118 de peso 2.0
+vertice: 120 de peso 2.0
+vertice: 122 de peso 2.0
+vertice: 123 de peso 2.0
+vertice: 124 de peso 2.0
+vertice: 125 de peso 2.0
+vertice: 126 de peso 2.0
+vertice: 127 de peso 2.0
+vertice: 128 de peso 2.0
+vertice: 129 de peso 2.0
+vertice: 132 de peso 2.0
+vertice: 134 de peso 2.0
+vertice: 135 de peso 2.0
+vertice: 136 de peso 2.0
+vertice: 138 de peso 2.0
+vertice: 139 de peso 2.0
+vertice: 141 de peso 2.0
+vertice: 143 de peso 2.0
+vertice: 146 de peso 2.0
+vertice: 149 de peso 2.0
+vertice: 150 de peso 2.0
+vertice: 151 de peso 2.0
+vertice: 153 de peso 2.0
+vertice: 154 de peso 2.0
+vertice: 155 de peso 2.0
+vertice: 156 de peso 2.0
+vertice: 157 de peso 2.0
+vertice: 158 de peso 2.0
+vertice: 159 de peso 2.0
+vertice: 160 de peso 2.0
+vertice: 161 de peso 2.0
+vertice: 162 de peso 2.0
+vertice: 163 de peso 2.0
+vertice: 165 de peso 2.0
+vertice: 166 de peso 2.0
+vertice: 167 de peso 2.0
+vertice: 169 de peso 2.0
+vertice: 171 de peso 2.0
+vertice: 172 de peso 2.0
+vertice: 173 de peso 2.0
+vertice: 175 de peso 2.0
+vertice: 176 de peso 2.0
+vertice: 177 de peso 2.0
+vertice: 179 de peso 2.0
+vertice: 180 de peso 2.0
+vertice: 181 de peso 2.0
+vertice: 182 de peso 2.0
+vertice: 184 de peso 2.0
+vertice: 185 de peso 2.0
+vertice: 186 de peso 2.0
+vertice: 188 de peso 2.0
+vertice: 189 de peso 2.0
+vertice: 191 de peso 2.0
+vertice: 192 de peso 2.0
+vertice: 193 de peso 2.0
+vertice: 196 de peso 2.0
+vertice: 198 de peso 2.0
+vertice: 202 de peso 2.0
+vertice: 204 de peso 2.0
+vertice: 205 de peso 2.0
+vertice: 207 de peso 2.0
+vertice: 209 de peso 2.0
+vertice: 210 de peso 2.0
+vertice: 211 de peso 2.0
+vertice: 214 de peso 2.0
+vertice: 215 de peso 2.0
+vertice: 216 de peso 2.0
+vertice: 218 de peso 2.0
+vertice: 219 de peso 2.0
+vertice: 220 de peso 2.0
+vertice: 221 de peso 2.0
+vertice: 222 de peso 2.0
+vertice: 224 de peso 2.0
+vertice: 225 de peso 2.0
+vertice: 226 de peso 2.0
+vertice: 227 de peso 2.0
+vertice: 228 de peso 2.0
+vertice: 229 de peso 2.0
+vertice: 230 de peso 2.0
+vertice: 231 de peso 2.0
+vertice: 232 de peso 2.0
+vertice: 234 de peso 2.0
+vertice: 236 de peso 2.0
+vertice: 238 de peso 2.0
+vertice: 239 de peso 2.0
+vertice: 240 de peso 2.0
+vertice: 241 de peso 2.0
+vertice: 242 de peso 2.0
+vertice: 243 de peso 2.0
+vertice: 244 de peso 2.0
+vertice: 245 de peso 2.0
+vertice: 247 de peso 2.0
+vertice: 248 de peso 2.0
+vertice: 249 de peso 2.0
+vertice: 250 de peso 2.0
+vertice: 251 de peso 2.0
+vertice: 253 de peso 2.0
+vertice: 254 de peso 2.0
+vertice: 255 de peso 2.0
+vertice: 258 de peso 2.0
+vertice: 259 de peso 2.0
+vertice: 260 de peso 2.0
+vertice: 263 de peso 2.0
+vertice: 264 de peso 2.0
+vertice: 265 de peso 2.0
+vertice: 266 de peso 2.0
+vertice: 267 de peso 2.0
+vertice: 268 de peso 2.0
+vertice: 269 de peso 2.0
+vertice: 270 de peso 2.0
+vertice: 271 de peso 2.0
+vertice: 272 de peso 2.0
+vertice: 273 de peso 2.0
+vertice: 274 de peso 2.0
+vertice: 275 de peso 2.0
+vertice: 277 de peso 2.0
+vertice: 278 de peso 2.0
+vertice: 280 de peso 2.0
+vertice: 281 de peso 2.0
+vertice: 282 de peso 2.0
+vertice: 284 de peso 2.0
+vertice: 287 de peso 2.0
+vertice: 288 de peso 2.0
+vertice: 289 de peso 2.0
+vertice: 290 de peso 2.0
+vertice: 291 de peso 2.0
+vertice: 292 de peso 2.0
+vertice: 294 de peso 2.0
+vertice: 296 de peso 2.0
+vertice: 297 de peso 2.0
+vertice: 298 de peso 2.0
+vertice: 299 de peso 2.0
+vertice: 300 de peso 2.0
+vertice: 302 de peso 2.0
+vertice: 304 de peso 2.0
+vertice: 305 de peso 2.0
+vertice: 307 de peso 2.0
+vertice: 308 de peso 2.0
+vertice: 309 de peso 2.0
+vertice: 310 de peso 2.0
+vertice: 311 de peso 2.0
+vertice: 312 de peso 2.0
+vertice: 313 de peso 2.0
+vertice: 315 de peso 2.0
+vertice: 317 de peso 2.0
+vertice: 318 de peso 2.0
+vertice: 319 de peso 2.0
+vertice: 320 de peso 2.0
+vertice: 322 de peso 2.0
+vertice: 323 de peso 2.0
+vertice: 324 de peso 2.0
+vertice: 325 de peso 2.0
+vertice: 326 de peso 2.0
+vertice: 327 de peso 2.0
+vertice: 328 de peso 2.0
+vertice: 329 de peso 2.0
+vertice: 333 de peso 2.0
+vertice: 334 de peso 2.0
+vertice: 335 de peso 2.0
+vertice: 336 de peso 2.0
+vertice: 338 de peso 2.0
+vertice: 339 de peso 2.0
+vertice: 340 de peso 2.0
+vertice: 341 de peso 2.0
+vertice: 342 de peso 2.0
+vertice: 343 de peso 2.0
+vertice: 344 de peso 2.0
+vertice: 345 de peso 2.0
+vertice: 347 de peso 2.0
+vertice: 348 de peso 2.0
+vertice: 349 de peso 2.0
+vertice: 351 de peso 2.0
+vertice: 354 de peso 2.0
+vertice: 355 de peso 2.0
+vertice: 356 de peso 2.0
+vertice: 359 de peso 2.0
+vertice: 360 de peso 2.0
+vertice: 362 de peso 2.0
+vertice: 363 de peso 2.0
+vertice: 364 de peso 2.0
+vertice: 365 de peso 2.0
+vertice: 366 de peso 2.0
+vertice: 367 de peso 2.0
+vertice: 368 de peso 2.0
+vertice: 369 de peso 2.0
+vertice: 370 de peso 2.0
+vertice: 371 de peso 2.0
+vertice: 372 de peso 2.0
+vertice: 373 de peso 2.0
+vertice: 374 de peso 2.0
+vertice: 375 de peso 2.0
+vertice: 376 de peso 2.0
+vertice: 377 de peso 2.0
+vertice: 378 de peso 2.0
+vertice: 379 de peso 2.0
+vertice: 380 de peso 2.0
+vertice: 381 de peso 2.0
+vertice: 382 de peso 2.0
+vertice: 383 de peso 2.0
+vertice: 384 de peso 2.0
+vertice: 385 de peso 2.0
+vertice: 387 de peso 2.0
+vertice: 388 de peso 2.0
+vertice: 389 de peso 2.0
+vertice: 390 de peso 2.0
+vertice: 391 de peso 2.0
+vertice: 392 de peso 2.0
+vertice: 393 de peso 2.0
+vertice: 394 de peso 2.0
+vertice: 395 de peso 2.0
+vertice: 396 de peso 2.0
+vertice: 397 de peso 2.0
+vertice: 399 de peso 2.0
+vertice: 402 de peso 2.0
+vertice: 403 de peso 2.0
+vertice: 404 de peso 2.0
+vertice: 405 de peso 2.0
+vertice: 406 de peso 2.0
+vertice: 411 de peso 2.0
+vertice: 412 de peso 2.0
+vertice: 413 de peso 2.0
+vertice: 416 de peso 2.0
+vertice: 417 de peso 2.0
+vertice: 418 de peso 2.0
+vertice: 419 de peso 2.0
+vertice: 420 de peso 2.0
+vertice: 421 de peso 2.0
+vertice: 422 de peso 2.0
+vertice: 423 de peso 2.0
+vertice: 426 de peso 2.0
+vertice: 427 de peso 2.0
+vertice: 430 de peso 2.0
+vertice: 431 de peso 2.0
+vertice: 432 de peso 2.0
+vertice: 434 de peso 2.0
+vertice: 435 de peso 2.0
+vertice: 436 de peso 2.0
+vertice: 438 de peso 2.0
+vertice: 439 de peso 2.0
+vertice: 441 de peso 2.0
+vertice: 442 de peso 2.0
+vertice: 443 de peso 2.0
+vertice: 444 de peso 2.0
+vertice: 445 de peso 2.0
+vertice: 447 de peso 2.0
+vertice: 449 de peso 2.0
+vertice: 450 de peso 2.0
+vertice: 452 de peso 2.0
+vertice: 453 de peso 2.0
+vertice: 454 de peso 2.0
+vertice: 455 de peso 2.0
+vertice: 456 de peso 2.0
+vertice: 457 de peso 2.0
+vertice: 458 de peso 2.0
+vertice: 459 de peso 2.0
+vertice: 460 de peso 2.0
+vertice: 461 de peso 2.0
+vertice: 462 de peso 2.0
+vertice: 463 de peso 2.0
+vertice: 464 de peso 2.0
+vertice: 465 de peso 2.0
+vertice: 466 de peso 2.0
+vertice: 468 de peso 2.0
+vertice: 469 de peso 2.0
+vertice: 470 de peso 2.0
+vertice: 472 de peso 2.0
+vertice: 473 de peso 2.0
+vertice: 474 de peso 2.0
+vertice: 475 de peso 2.0
+vertice: 476 de peso 2.0
+vertice: 478 de peso 2.0
+vertice: 480 de peso 2.0
+vertice: 486 de peso 2.0
+vertice: 487 de peso 2.0
+vertice: 488 de peso 2.0
+vertice: 489 de peso 2.0
+vertice: 490 de peso 2.0
+vertice: 491 de peso 2.0
+vertice: 492 de peso 2.0
+vertice: 494 de peso 2.0
+vertice: 498 de peso 2.0
+vertice: 499 de peso 2.0
+vertice: 501 de peso 2.0
+vertice: 503 de peso 2.0
+vertice: 505 de peso 2.0
+vertice: 506 de peso 2.0
+vertice: 507 de peso 2.0
+vertice: 508 de peso 2.0
+vertice: 510 de peso 2.0
+vertice: 511 de peso 2.0
+vertice: 512 de peso 2.0
+vertice: 514 de peso 2.0
+vertice: 515 de peso 2.0
+vertice: 518 de peso 2.0
+vertice: 519 de peso 2.0
+vertice: 520 de peso 2.0
+vertice: 521 de peso 2.0
+vertice: 525 de peso 2.0
+vertice: 526 de peso 2.0
+vertice: 527 de peso 2.0
+vertice: 531 de peso 2.0
+vertice: 534 de peso 2.0
+vertice: 535 de peso 2.0
+vertice: 537 de peso 2.0
+vertice: 538 de peso 2.0
+vertice: 539 de peso 2.0
+vertice: 540 de peso 2.0
+vertice: 543 de peso 2.0
+vertice: 544 de peso 2.0
+vertice: 546 de peso 2.0
+vertice: 547 de peso 2.0
+vertice: 548 de peso 2.0
+vertice: 550 de peso 2.0
+vertice: 551 de peso 2.0
+vertice: 552 de peso 2.0
+vertice: 553 de peso 2.0
+vertice: 554 de peso 2.0
+vertice: 555 de peso 2.0
+vertice: 556 de peso 2.0
+vertice: 557 de peso 2.0
+vertice: 558 de peso 2.0
+vertice: 559 de peso 2.0
+vertice: 561 de peso 2.0
+vertice: 562 de peso 2.0
+vertice: 563 de peso 2.0
+vertice: 564 de peso 2.0
+vertice: 566 de peso 2.0
+vertice: 570 de peso 2.0
+vertice: 571 de peso 2.0
+vertice: 572 de peso 2.0
+vertice: 573 de peso 2.0
+vertice: 574 de peso 2.0
+vertice: 575 de peso 2.0
+vertice: 576 de peso 2.0
+vertice: 577 de peso 2.0
+vertice: 580 de peso 2.0
+vertice: 582 de peso 2.0
+vertice: 583 de peso 2.0
+vertice: 584 de peso 2.0
+vertice: 586 de peso 2.0
+vertice: 587 de peso 2.0
+vertice: 588 de peso 2.0
+vertice: 589 de peso 2.0
+vertice: 590 de peso 2.0
+vertice: 591 de peso 2.0
+vertice: 593 de peso 2.0
+vertice: 594 de peso 2.0
+vertice: 596 de peso 2.0
+vertice: 598 de peso 2.0
+vertice: 600 de peso 2.0
+vertice: 601 de peso 2.0
+vertice: 602 de peso 2.0
+vertice: 604 de peso 2.0
+vertice: 606 de peso 2.0
+vertice: 607 de peso 2.0
+vertice: 609 de peso 2.0
+vertice: 610 de peso 2.0
+vertice: 611 de peso 2.0
+vertice: 612 de peso 2.0
+vertice: 615 de peso 2.0
+vertice: 616 de peso 2.0
+vertice: 617 de peso 2.0
+vertice: 618 de peso 2.0
+vertice: 620 de peso 2.0
+vertice: 621 de peso 2.0
+vertice: 622 de peso 2.0
+vertice: 625 de peso 2.0
+vertice: 627 de peso 2.0
+vertice: 628 de peso 2.0
+vertice: 629 de peso 2.0
+vertice: 630 de peso 2.0
+vertice: 632 de peso 2.0
+vertice: 633 de peso 2.0
+vertice: 634 de peso 2.0
+vertice: 635 de peso 2.0
+vertice: 637 de peso 2.0
+vertice: 638 de peso 2.0
+vertice: 639 de peso 2.0
+vertice: 640 de peso 2.0
+vertice: 641 de peso 2.0
+vertice: 642 de peso 2.0
+vertice: 643 de peso 2.0
+vertice: 644 de peso 2.0
+vertice: 645 de peso 2.0
+vertice: 646 de peso 2.0
+vertice: 648 de peso 2.0
+vertice: 652 de peso 2.0
+vertice: 653 de peso 2.0
+vertice: 654 de peso 2.0
+vertice: 655 de peso 2.0
+vertice: 656 de peso 2.0
+vertice: 657 de peso 2.0
+vertice: 658 de peso 2.0
+vertice: 661 de peso 2.0
+vertice: 664 de peso 2.0
+vertice: 665 de peso 2.0
+vertice: 666 de peso 2.0
+vertice: 667 de peso 2.0
+vertice: 668 de peso 2.0
+vertice: 670 de peso 2.0
+vertice: 671 de peso 2.0
+vertice: 672 de peso 2.0
+vertice: 675 de peso 2.0
+vertice: 676 de peso 2.0
+vertice: 678 de peso 2.0
+vertice: 679 de peso 2.0
+vertice: 680 de peso 2.0
+vertice: 681 de peso 2.0
+vertice: 682 de peso 2.0
+vertice: 683 de peso 2.0
+vertice: 685 de peso 2.0
+vertice: 687 de peso 2.0
+vertice: 688 de peso 2.0
+vertice: 689 de peso 2.0
+vertice: 690 de peso 2.0
+vertice: 691 de peso 2.0
+vertice: 693 de peso 2.0
+vertice: 694 de peso 2.0
+vertice: 695 de peso 2.0
+vertice: 696 de peso 2.0
+vertice: 697 de peso 2.0
+vertice: 698 de peso 2.0
+vertice: 701 de peso 2.0
+vertice: 702 de peso 2.0
+vertice: 704 de peso 2.0
+vertice: 706 de peso 2.0
+vertice: 707 de peso 2.0
+vertice: 708 de peso 2.0
+vertice: 709 de peso 2.0
+vertice: 712 de peso 2.0
+vertice: 714 de peso 2.0
+vertice: 715 de peso 2.0
+vertice: 716 de peso 2.0
+vertice: 718 de peso 2.0
+vertice: 719 de peso 2.0
+vertice: 720 de peso 2.0
+vertice: 721 de peso 2.0
+vertice: 722 de peso 2.0
+vertice: 723 de peso 2.0
+vertice: 724 de peso 2.0
+vertice: 726 de peso 2.0
+vertice: 727 de peso 2.0
+vertice: 729 de peso 2.0
+vertice: 730 de peso 2.0
+vertice: 731 de peso 2.0
+vertice: 732 de peso 2.0
+vertice: 733 de peso 2.0
+vertice: 735 de peso 2.0
+vertice: 736 de peso 2.0
+vertice: 737 de peso 2.0
+vertice: 738 de peso 2.0
+vertice: 739 de peso 2.0
+vertice: 741 de peso 2.0
+vertice: 742 de peso 2.0
+vertice: 743 de peso 2.0
+vertice: 744 de peso 2.0
+vertice: 745 de peso 2.0
+vertice: 746 de peso 2.0
+vertice: 747 de peso 2.0
+vertice: 748 de peso 2.0
+vertice: 749 de peso 2.0
+vertice: 750 de peso 2.0
+vertice: 751 de peso 2.0
+vertice: 752 de peso 2.0
+vertice: 753 de peso 2.0
+vertice: 754 de peso 2.0
+vertice: 755 de peso 2.0
+vertice: 756 de peso 2.0
+vertice: 757 de peso 2.0
+vertice: 758 de peso 2.0
+vertice: 759 de peso 2.0
+vertice: 760 de peso 2.0
+vertice: 761 de peso 2.0
+vertice: 762 de peso 2.0
+vertice: 763 de peso 2.0
+vertice: 767 de peso 2.0
+vertice: 768 de peso 2.0
+vertice: 769 de peso 2.0
+vertice: 770 de peso 2.0
+vertice: 773 de peso 2.0
+vertice: 774 de peso 2.0
+vertice: 778 de peso 2.0
+vertice: 779 de peso 2.0
+vertice: 780 de peso 2.0
+vertice: 783 de peso 2.0
+vertice: 784 de peso 2.0
+vertice: 785 de peso 2.0
+vertice: 786 de peso 2.0
+vertice: 787 de peso 2.0
+vertice: 788 de peso 2.0
+vertice: 790 de peso 2.0
+vertice: 791 de peso 2.0
+vertice: 792 de peso 2.0
+vertice: 793 de peso 2.0
+vertice: 794 de peso 2.0
+vertice: 796 de peso 2.0
+vertice: 797 de peso 2.0
+vertice: 798 de peso 2.0
+vertice: 799 de peso 2.0
+vertice: 800 de peso 2.0
+vertice: 802 de peso 2.0
+vertice: 805 de peso 2.0
+vertice: 806 de peso 2.0
+vertice: 808 de peso 2.0
+vertice: 809 de peso 2.0
+vertice: 811 de peso 2.0
+vertice: 812 de peso 2.0
+vertice: 813 de peso 2.0
+vertice: 814 de peso 2.0
+vertice: 816 de peso 2.0
+vertice: 817 de peso 2.0
+vertice: 818 de peso 2.0
+vertice: 819 de peso 2.0
+vertice: 820 de peso 2.0
+vertice: 821 de peso 2.0
+vertice: 822 de peso 2.0
+vertice: 824 de peso 2.0
+vertice: 825 de peso 2.0
+vertice: 827 de peso 2.0
+vertice: 828 de peso 2.0
+vertice: 829 de peso 2.0
+vertice: 830 de peso 2.0
+vertice: 832 de peso 2.0
+vertice: 833 de peso 2.0
+vertice: 834 de peso 2.0
+vertice: 835 de peso 2.0
+vertice: 836 de peso 2.0
+vertice: 837 de peso 2.0
+vertice: 838 de peso 2.0
+vertice: 840 de peso 2.0
+vertice: 841 de peso 2.0
+vertice: 842 de peso 2.0
+vertice: 843 de peso 2.0
+vertice: 845 de peso 2.0
+vertice: 846 de peso 2.0
+vertice: 848 de peso 2.0
+vertice: 849 de peso 2.0
+vertice: 850 de peso 2.0
+vertice: 852 de peso 2.0
+vertice: 853 de peso 2.0
+vertice: 855 de peso 2.0
+vertice: 856 de peso 2.0
+vertice: 857 de peso 2.0
+vertice: 858 de peso 2.0
+vertice: 859 de peso 2.0
+vertice: 860 de peso 2.0
+vertice: 861 de peso 2.0
+vertice: 862 de peso 2.0
+vertice: 864 de peso 2.0
+vertice: 866 de peso 2.0
+vertice: 867 de peso 2.0
+vertice: 868 de peso 2.0
+vertice: 869 de peso 2.0
+vertice: 870 de peso 2.0
+vertice: 873 de peso 2.0
+vertice: 875 de peso 2.0
+vertice: 876 de peso 2.0
+vertice: 879 de peso 2.0
+vertice: 880 de peso 2.0
+vertice: 881 de peso 2.0
+vertice: 882 de peso 2.0
+vertice: 883 de peso 2.0
+vertice: 886 de peso 2.0
+vertice: 887 de peso 2.0
+vertice: 889 de peso 2.0
+vertice: 890 de peso 2.0
+vertice: 891 de peso 2.0
+vertice: 892 de peso 2.0
+vertice: 895 de peso 2.0
+vertice: 897 de peso 2.0
+vertice: 900 de peso 2.0
+vertice: 901 de peso 2.0
+vertice: 903 de peso 2.0
+vertice: 904 de peso 2.0
+vertice: 905 de peso 2.0
+vertice: 906 de peso 2.0
+vertice: 907 de peso 2.0
+vertice: 908 de peso 2.0
+vertice: 909 de peso 2.0
+vertice: 910 de peso 2.0
+vertice: 912 de peso 2.0
+vertice: 913 de peso 2.0
+vertice: 915 de peso 2.0
+vertice: 916 de peso 2.0
+vertice: 917 de peso 2.0
+vertice: 919 de peso 2.0
+vertice: 921 de peso 2.0
+vertice: 923 de peso 2.0
+vertice: 924 de peso 2.0
+vertice: 925 de peso 2.0
+vertice: 926 de peso 2.0
+vertice: 928 de peso 2.0
+vertice: 930 de peso 2.0
+vertice: 931 de peso 2.0
+vertice: 932 de peso 2.0
+vertice: 933 de peso 2.0
+vertice: 934 de peso 2.0
+vertice: 935 de peso 2.0
+vertice: 937 de peso 2.0
+vertice: 938 de peso 2.0
+vertice: 939 de peso 2.0
+vertice: 940 de peso 2.0
+vertice: 941 de peso 2.0
+vertice: 942 de peso 2.0
+vertice: 943 de peso 2.0
+vertice: 944 de peso 2.0
+vertice: 945 de peso 2.0
+vertice: 946 de peso 2.0
+vertice: 947 de peso 2.0
+vertice: 948 de peso 2.0
+vertice: 950 de peso 2.0
+vertice: 952 de peso 2.0
+vertice: 953 de peso 2.0
+vertice: 956 de peso 2.0
+vertice: 957 de peso 2.0
+vertice: 958 de peso 2.0
+vertice: 959 de peso 2.0
+vertice: 961 de peso 2.0
+vertice: 962 de peso 2.0
+vertice: 963 de peso 2.0
+vertice: 964 de peso 2.0
+vertice: 966 de peso 2.0
+vertice: 968 de peso 2.0
+vertice: 974 de peso 2.0
+vertice: 975 de peso 2.0
+vertice: 976 de peso 2.0
+vertice: 977 de peso 2.0
+vertice: 978 de peso 2.0
+vertice: 979 de peso 2.0
+vertice: 980 de peso 2.0
+vertice: 981 de peso 2.0
+vertice: 982 de peso 2.0
+vertice: 985 de peso 2.0
+vertice: 986 de peso 2.0
+vertice: 987 de peso 2.0
+vertice: 988 de peso 2.0
+vertice: 989 de peso 2.0
+vertice: 991 de peso 2.0
+vertice: 992 de peso 2.0
+vertice: 993 de peso 2.0
+vertice: 994 de peso 2.0
+vertice: 995 de peso 2.0
+vertice: 998 de peso 2.0
+vertice: 999 de peso 2.0
+vertice: 1000 de peso 2.0
+
+Distancia media: 1.50
+

@@ -33,7 +33,7 @@ class Grafo():
 
 	def printMST(self, arquivoSaida, pai):
 			with open(arquivoSaida, 'a') as mst:
-				mst.write('\nMST: \n')
+				mst.write('\n**** MST ****: \n')
 				mst.write('Aresta/Peso \n')
 				pesoTotal = 0
 				for i in range(1, self.v):
@@ -253,6 +253,7 @@ class Grafo():
 		distancia_media=0.0
 		vezesSoma = 0.0
 		if destino==-1:
+			distancias_str +=f"Do vertice 1 ate todos os outros do grafo\n"
 			for i, distancia  in enumerate(distancias):
 					if i !=origem:
 						distancias_str += f"Distancia ate o vertice {i+1}: {distancia}\n"
@@ -265,7 +266,7 @@ class Grafo():
 			for v in visitados_ordem[1:destino+1]:
 				vertices_str += f"vertice: {v+1} de peso {distancias[v]}\n"
 
-			distancias_str = f"Vertices visitados do caminho minimo:\n {vertices_str}\n"
+			distancias_str = f"Vertices visitados do caminho minimo, com origem {origem+1} e destino {destino+1}:\n {vertices_str}\n"
 			pesoAnterior = float(distancias[visitados_ordem[0]])
 			for v in visitados_ordem[1:destino+3]:
 				pesoAtual = float(distancias[v])
