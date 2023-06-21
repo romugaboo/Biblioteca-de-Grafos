@@ -225,22 +225,30 @@ class Grafo():
 		interromper = False
 		visitados_ordem = []
 		distancia_media = 0.0
-		for _ in range(self.v):
-			u = self.minDistancia(distancias, visitados)
-			visitados[u] = True 
-			visitados_ordem.append(u) 
-			if u==destino:
-				interromper=True
+		heap = [(0, origem)] ##inicializamos o heap com uma tupla <distancia, vértice>, contendo a distância e o vértice de origem no início
+
+		while heap: #enquanto houverem tuplas:
+			u_dist, u = heapq.heappop(heap) # como a tupla é formada por <distancia, vértice>, u_dist e u recebem os valores de cada um respectivamente. este elemento tbm é retirado do heap.
+			if visitados[u]: #se o vértice já tinha sido visitado, vai pular a iteração sobre ele
+				continue
+			visitados[u] = True #se não, vai marcá-lo como visitado
+			visitados_ordem.append(u) #aqui é onde recebemos a ordem de acesso dos vértices
+
+			if u == destino: 
+				interromper = True
 				break
 			for v in range(self.v):
 				if (self.matrizAdj[u][v] > 0 and
-				not visitados[v] and
-				distancias[u] + self.matrizAdj[u][v] < distancias[v]):
-						distancias[v] = distancias[u] + self.matrizAdj[u][v]
-						if interromper:
-							break	
+						not visitados[v] and
+						u_dist + self.matrizAdj[u][v] < distancias[v]):
+					distancias[v] = u_dist + self.matrizAdj[u][v]
+					heapq.heappush(heap, (distancias[v], v))
+					if interromper:
+						break
+
 		distancias_str = ""
 		distancia_media=0.0
+		vezesSoma = 0.0
 		if destino==-1:
 			for i, distancia  in enumerate(distancias):
 					if i !=origem:
@@ -248,25 +256,26 @@ class Grafo():
 						distancia_media = sum(distancias)/(self.v-1)
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
 		else:
-			vertices_str = ''.join(f"vertice: {v} de peso {distancias[v]}\n" for v in visitados_ordem[1:destino+1])
-			distancias_str = f"Vertices visitados do caminho minimo:\n {vertices_str}\n"
+			vezesSoma =0.0
+			vertices_str = ""
+
 			for v in visitados_ordem[1:destino+1]:
-				distancia_media+=distancias[v]
-			distancia_media/=len(visitados_ordem[1:destino+1])
+				vertices_str += f"vertice: {v+1} de peso {distancias[v]}\n"
+
+			distancias_str = f"Vertices visitados do caminho minimo:\n {vertices_str}\n"
+			pesoAnterior = float(distancias[visitados_ordem[0]])
+			for v in visitados_ordem[1:destino+3]:
+				pesoAtual = float(distancias[v])
+				if pesoAtual>pesoAnterior:
+					distancia_media +=pesoAtual
+					vezesSoma+=1
+				pesoAnterior = pesoAtual
+			distancia_media= distancia_media/vezesSoma
 			distancias_str+= f"Distancia media: {distancia_media:.2f}\n\n"
+
 		print ("Dados gravados no .txt com sucesso")
 		with open(arquivoSaida, 'a') as saida:
 			saida.write("\nDistancia minima:\n\n")
 			saida.write(str((distancias_str)))
 			saida.close
 	
-	def minDistancia(self, distancias, visitados):
-		minimo = sys.maxsize
-		minimo_indice = -1
-	
-		for v in range(self.v):
-			if not visitados[v] and distancias[v] < minimo:
-				minimo = distancias[v]
-				minimo_indice = v
-		
-		return minimo_indice
