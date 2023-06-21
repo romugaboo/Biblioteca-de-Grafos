@@ -104,6 +104,24 @@ Aresta/Peso
 58 98 1.0
 98 99 3.0
 1 100 12.0
+
+Distancia minima:
+
+Vertices visitados do caminho minimo, com origem 1 e destino 10:
+vertice: 100 de peso 12.0
+vertice: 2 de peso 15.0
+vertice: 17 de peso 15.0
+vertice: 8 de peso 16.0
+vertice: 99 de peso 16.0
+vertice: 3 de peso 17.0
+vertice: 67 de peso 17.0
+vertice: 73 de peso 17.0
+vertice: 18 de peso 18.0
+
+Distancia media: 15.60
+
+
+
 Distancia minima:
 
 Distancia ate o vertice 2: 15.0
