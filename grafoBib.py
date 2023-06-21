@@ -215,6 +215,9 @@ class Grafo():
 			elif origem<=0:
 				ZeroDivisionError=("Origem deve ser valor maior que zero.\n\n")
 				print(f"Erro: {str(ZeroDivisionError)}")
+			elif destino>(self.v):
+				ZeroDivisionError=("Destino inalcansável.\n\n")
+				print(f"Erro: {str(ZeroDivisionError)}")
 			else:
 				valid_input = True
 		origem -= 1
